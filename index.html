@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marktrisiko-Kompass · BASIC</title>
+  <meta name="description" content="Verständliche Markt- und Risikosignale für Privatanleger – klar, regelbasiert und ohne Terminal-Overload." />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --bg:#0f1722;--bg2:#121c29;--panel:rgba(255,255,255,.04);--panel-2:rgba(255,255,255,.03);--border:rgba(255,255,255,.08);
+      --text:#edf3fb;--text2:#c5d4e4;--text3:#8fa7c0;--muted:#7391ac;--shadow:0 20px 60px rgba(0,0,0,.22);--radius:22px;
+      --green:#53d39f;--amber:#f6ba62;--red:#ff7a7a;--blue:#8fc4ff;
+      --green-bg:rgba(83,211,159,.14);--amber-bg:rgba(246,186,98,.14);--red-bg:rgba(255,122,122,.14);--blue-bg:rgba(143,196,255,.14);
+      --font:'Inter',system-ui,sans-serif;--serif:'Fraunces',Georgia,serif;
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:var(--font);background:radial-gradient(circle at top, rgba(79,123,179,.18), transparent 36%),linear-gradient(180deg,#0d1520,#121c29 30%,#111926 100%);color:var(--text)}
+    a{color:inherit}button,input{font:inherit}
+    .shell{max-width:1280px;margin:0 auto;padding:0 20px 52px}
+    .topbar{position:sticky;top:0;z-index:100;background:rgba(14,22,32,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+    .topbar-inner{max-width:1280px;margin:0 auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid var(--border);font-size:20px}.brand-over{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3)}.brand-name{font-size:18px;font-weight:700}
+    .nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid var(--border);border-radius:999px;text-decoration:none;background:rgba(255,255,255,.04);font-size:13px;color:var(--text2)}.nav a:hover,.nav a.active{background:var(--blue-bg);border-color:rgba(143,196,255,.28);color:var(--text)}
+    .hero{padding:28px 0 22px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}.card{background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.025));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero-main{padding:30px}.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3);margin-bottom:12px}.hero-title{margin:0;font-family:var(--serif);font-size:clamp(36px,5vw,60px);line-height:1.02;letter-spacing:-.04em;max-width:10ch}.hero-sub{margin:18px 0 0;color:var(--text2);font-size:16px;line-height:1.8;max-width:62ch}
+    .hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.chip{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:12px;color:var(--text2)}.dot{width:8px;height:8px;border-radius:50%;background:var(--green)}.dot.stale{background:var(--amber)}
+    .hero-side{padding:22px;display:grid;gap:14px}.status-card{padding:18px;border-radius:18px;border:1px solid var(--border);background:rgba(255,255,255,.03)}.status-label{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--text3);margin-bottom:8px}.status-headline{font-size:26px;line-height:1.18;font-weight:800}.status-copy{margin-top:10px;color:var(--text2);line-height:1.7;font-size:14px}.status-foot{margin-top:12px;color:var(--text3);font-size:12px;line-height:1.6}
+    .quickstart{padding:22px;margin-top:16px}.section-title{margin:0;font-family:var(--serif);font-size:clamp(28px,4vw,42px);line-height:1.08;letter-spacing:-.03em}.section-sub{margin:10px 0 0;color:var(--text2);font-size:15px;line-height:1.8}
+    .qs-grid,.meaning-grid,.matrix-grid,.scenario-grid,.indicators-grid,.news-grid,.regions-grid{display:grid;gap:16px}.qs-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px}.mini{padding:16px;border-radius:18px;background:var(--panel-2);border:1px solid rgba(255,255,255,.06)}.mini h3{margin:0 0 8px;font-size:15px}.mini p{margin:0;color:var(--text2);font-size:14px;line-height:1.7}
+    .section{margin-top:16px;padding:24px}.scenario-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:20px}.scenario{overflow:hidden}.bar{height:5px;background:rgba(255,255,255,.06)}.fill{height:100%}.scenario-body{padding:20px}.scenario-top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.scenario-badge{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:14px;font-weight:800}.scenario-name{margin-top:10px;font-size:20px;font-weight:700;line-height:1.2}.scenario-prob{font-size:44px;font-weight:800;line-height:.92;letter-spacing:-.05em}.scenario-prob small{font-size:20px;color:var(--text2)}.scenario-desc,.scenario-why,.scenario-meta{color:var(--text2);font-size:14px;line-height:1.75}.scenario-desc{margin-top:14px}.scenario-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 16px;margin-top:14px}.scenario-meta strong{display:block;color:var(--text3);font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:4px}.scenario-why{margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.08)}
+    .meaning-grid{grid-template-columns:1.05fr .95fr;margin-top:18px}.copy-card,.matrix-card{padding:22px}.copy-card p,.matrix-card p{margin:0;color:var(--text2);font-size:15px;line-height:1.8}.copy-card p + p{margin-top:12px}.matrix-grid{margin-top:16px}.matrix-item{padding:16px;border-radius:18px;border:1px solid var(--border);background:rgba(255,255,255,.03)}.matrix-item h3{margin:0 0 8px;font-size:16px}.matrix-item p{margin:0;color:var(--text2);font-size:14px;line-height:1.7}.state-pill{display:inline-block;margin-bottom:10px;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--border)}
+    .indicators-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:20px}.indicator{padding:20px}.indicator-top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.indicator-title{display:flex;align-items:center;gap:8px;font-size:17px;font-weight:700;line-height:1.4}.pill{padding:7px 10px;border-radius:999px;border:1px solid var(--border);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}.l{background:var(--green-bg);color:var(--green)}.m{background:var(--amber-bg);color:var(--amber)}.h{background:var(--red-bg);color:var(--red)}.indicator-value{margin-top:14px;font-size:58px;line-height:.95;font-weight:800;letter-spacing:-.05em}.indicator-unit{font-size:18px;color:var(--text2)}.indicator-text,.indicator-date,.indicator-extra{margin-top:10px;color:var(--text2);font-size:14px;line-height:1.75}.indicator-date,.indicator-extra{color:var(--text3)}
+    .tabs{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.tab{padding:8px 12px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);color:var(--text3);cursor:pointer;font-size:12px}.tab.active{background:var(--blue-bg);color:var(--text);border-color:rgba(143,196,255,.26)}
+    .chart-shell{margin-top:14px;padding:14px;border-radius:18px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03)}.chart-meta,.chart-foot{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--text3);line-height:1.7}.chart-wrap{height:250px;margin-top:8px}
+    .regions-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px}.region{padding:20px}.region-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.region h3{margin:0;font-size:24px;font-family:var(--serif)}.region p{margin:12px 0 0;color:var(--text2);font-size:14px;line-height:1.75}.region-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}.kpi{padding:12px;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.kpi .lab{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text3)}.kpi .val{margin-top:6px;font-size:18px;font-weight:700}.kpi .sub{margin-top:4px;font-size:11px;color:var(--text3);line-height:1.5}
+    .news-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:18px}.news{padding:20px;display:flex;flex-direction:column;gap:14px}.news-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.news h3{margin:0;font-size:18px;line-height:1.5}.news a{text-decoration:none}.news a:hover h3{text-decoration:underline;text-underline-offset:3px}.bucket{padding:7px 10px;border-radius:999px;background:var(--blue-bg);color:var(--blue);border:1px solid rgba(143,196,255,.24);font-size:11px;font-weight:700;white-space:nowrap}.news-meta{font-size:12px;color:var(--text3)}.news-copy{font-size:14px;color:var(--text2);line-height:1.75}.impact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.impact{padding:12px;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06)}.impact .lab{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text3);margin-bottom:6px}.impact .val{font-size:13px;line-height:1.65;color:var(--text2)}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{padding:7px 10px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.04);font-size:11px;color:var(--text2)}
+    .footer{margin-top:18px;padding:20px 22px}.footer p{margin:0;color:var(--text3);font-size:13px;line-height:1.7}.footer p + p{margin-top:10px}
+    .info-wrap{position:relative;display:inline-flex;align-items:center}.info-btn{width:20px;height:20px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:var(--text2);display:grid;place-items:center;cursor:pointer;padding:0;font-size:11px}.info-pop{display:none;position:absolute;left:0;top:26px;width:min(320px,calc(100vw - 40px));padding:12px 14px;border-radius:14px;border:1px solid var(--border);background:rgba(13,20,30,.98);box-shadow:0 18px 60px rgba(0,0,0,.3);font-size:12px;color:var(--text2);line-height:1.7;z-index:30}.info-wrap.open .info-pop,.info-wrap:hover .info-pop{display:block}
+    .muted{color:var(--text3)} .helper{color:var(--text3);font-size:12px;line-height:1.7} code{padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.05)}
+    @media (max-width:1120px){.hero-grid,.meaning-grid,.scenario-grid,.indicators-grid,.news-grid,.regions-grid,.qs-grid{grid-template-columns:1fr}.region-kpis{grid-template-columns:1fr 1fr 1fr}}
+    @media (max-width:760px){.shell,.topbar-inner{padding-left:16px;padding-right:16px}.hero-main,.hero-side,.quickstart,.section,.copy-card,.matrix-card,.indicator,.region,.news{padding:18px}.hero-title{max-width:none}.scenario-top,.indicator-top,.news-head,.region-top{flex-direction:column}.scenario-meta,.impact-grid,.region-kpis{grid-template-columns:1fr}.indicator-value{font-size:50px}.chart-wrap{height:220px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./index.html">
+        <div class="brand-mark">🧭</div>
+        <div>
+          <div class="brand-over">BASIC · GitHub Pages</div>
+          <div class="brand-name">Marktrisiko-Kompass</div>
+        </div>
+      </a>
+      <nav class="nav">
+        <a class="active" href="./index.html">Dashboard</a>
+        <a href="./documentation.html">Dokumentation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="card hero-main">
+          <div class="kicker">Marktphasen · Makro · Regelbasierte Orientierung</div>
+          <h1 class="hero-title">Marktrisiko-Kompass</h1>
+          <p class="hero-sub">Verständliche Markt- und Risikosignale für Privatanleger – klar, regelbasiert und ohne Terminal-Overload.</p>
+          <div class="hero-meta">
+            <div class="chip"><span class="dot" id="fresh-dot"></span><span id="fresh-text">Lade Datenstand…</span></div>
+            <div class="chip">Berlin-Zeit: <span id="berlin-clock">—</span></div>
+            <div class="chip">Datenquelle: <span id="source-text">FRED + Google News RSS</span></div>
+          </div>
+        </div>
+        <div class="card hero-side">
+          <div class="status-card">
+            <div class="status-label">Aktueller Gesamtstatus</div>
+            <div class="status-headline" id="market-headline">Lade Gesamtstatus…</div>
+            <div class="status-copy" id="market-summary">Das Dashboard wertet aktuelle Daten aus und übersetzt sie in eine ruhige, verständliche Marktphasen-Lesung.</div>
+            <div class="status-foot" id="market-foot">Letzte Aktualisierung: —</div>
+          </div>
+          <div class="status-card">
+            <div class="status-label">Was bedeutet das grundsätzlich für Anleger?</div>
+            <div class="status-copy" id="investor-meaning">Lade Einordnung…</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card quickstart">
+      <h2 class="section-title">Schnellstart</h2>
+      <p class="section-sub">Dieses Dashboard ist bewusst einfach gebaut. Es soll Marktphasen lesbar machen, nicht dich mit Rohdaten überladen.</p>
+      <div class="qs-grid">
+        <div class="mini"><h3>1. Erst den Gesamtstatus lesen</h3><p>Starte oben mit der Klartext-Zusammenfassung. Sie sagt dir, ob das Umfeld eher normal, angespannt oder klar stressbelastet ist.</p></div>
+        <div class="mini"><h3>2. Danach auf die Szenarien schauen</h3><p>Die drei Szenarien zeigen konkurrierende Marktpfade mit Wahrscheinlichkeiten und kurzer Begründung. Das reduziert Bauchgefühl und Schlagzeilenlärm.</p></div>
+        <div class="mini"><h3>3. Dann die Details einordnen</h3><p>Indikatoren, Weltkontext und Handlungsmatrix helfen dir, die Lage neutral zu lesen – ohne Kauf- oder Verkaufssignale.</p></div>
+      </div>
+    </section>
+
+    <section class="card section">
+      <h2 class="section-title">Szenarien &amp; Wahrscheinlichkeiten</h2>
+      <p class="section-sub">Die Prozentwerte entstehen aus regelbasierten Gewichten. Inflation, Zinsen, Rezessionssignale, Marktverlauf, Stimmung, Stressindikatoren und globaler Kontext schieben das Bild in Richtung der drei Szenarien.</p>
+      <div class="scenario-grid">
+        <article class="card scenario">
+          <div class="bar"><div class="fill" id="bar-A" style="background:var(--red);width:0%"></div></div>
+          <div class="scenario-body">
+            <div class="scenario-top">
+              <div>
+                <div class="scenario-badge" style="background:var(--red-bg);color:var(--red)">A</div>
+                <div class="scenario-name">Anhaltender Druck</div>
+              </div>
+              <div class="scenario-prob" id="prob-A" style="color:var(--red)">0 <small>%</small></div>
+            </div>
+            <div class="scenario-desc">Das Umfeld bleibt über längere Zeit anspruchsvoll. Preisdruck, Finanzierungskosten und schwächeres Wachstum halten die Unsicherheit hoch.</div>
+            <div class="scenario-meta">
+              <div><strong>Einordnung</strong>Längere Belastungsphase statt kurzer Schrecksekunde.</div>
+              <div><strong>Stützend</strong>Hohe Inflation, hoher Stressscore, breiter Gegenwind.</div>
+            </div>
+            <div class="scenario-why" id="why-A">Lade Begründung…</div>
+          </div>
+        </article>
+
+        <article class="card scenario">
+          <div class="bar"><div class="fill" id="bar-B" style="background:var(--amber);width:0%"></div></div>
+          <div class="scenario-body">
+            <div class="scenario-top">
+              <div>
+                <div class="scenario-badge" style="background:var(--amber-bg);color:var(--amber)">B</div>
+                <div class="scenario-name">Zähe Zwischenphase</div>
+              </div>
+              <div class="scenario-prob" id="prob-B" style="color:var(--amber)">0 <small>%</small></div>
+            </div>
+            <div class="scenario-desc">Belastungen bleiben sichtbar, aber nicht jeder Stressfaktor kippt gleichzeitig. Das spricht eher für Rückschläge und Zwischenkorrekturen als für eine Volleskalation.</div>
+            <div class="scenario-meta">
+              <div><strong>Einordnung</strong>Wackelige, aber nicht klar gebrochene Marktphase.</div>
+              <div><strong>Stützend</strong>Erhöhte Vorsichtssignale ohne vollständigen Strukturbruch.</div>
+            </div>
+            <div class="scenario-why" id="why-B">Lade Begründung…</div>
+          </div>
+        </article>
+
+        <article class="card scenario">
+          <div class="bar"><div class="fill" id="bar-C" style="background:var(--green);width:0%"></div></div>
+          <div class="scenario-body">
+            <div class="scenario-top">
+              <div>
+                <div class="scenario-badge" style="background:var(--green-bg);color:var(--green)">C</div>
+                <div class="scenario-name">Beherrschbarer Schock</div>
+              </div>
+              <div class="scenario-prob" id="prob-C" style="color:var(--green)">0 <small>%</small></div>
+            </div>
+            <div class="scenario-desc">Stress ist sichtbar, aber eher begrenzt. Markt und Makro wirken stabilisierbar, ohne dass bereits ein langes Belastungsregime bestätigt wäre.</div>
+            <div class="scenario-meta">
+              <div><strong>Einordnung</strong>Mehr Korrektur als Kapitulation.</div>
+              <div><strong>Stützend</strong>Moderater Stress, stabilerer Marktverlauf, weniger breiter Gegenwind.</div>
+            </div>
+            <div class="scenario-why" id="why-C">Lade Begründung…</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="meaning-grid">
+      <article class="card copy-card">
+        <h2 class="section-title">Bedeutung für Anleger</h2>
+        <p id="meaning-copy-1">Lade Einordnung…</p>
+        <p id="meaning-copy-2">Lade Einordnung…</p>
+        <p class="muted">Dieses Dashboard liefert Orientierung zur Marktphase. Es ersetzt keine individuelle Anlageberatung und gibt keine Kauf- oder Verkaufsempfehlungen.</p>
+      </article>
+      <article class="card matrix-card">
+        <h2 class="section-title">Handlungsmatrix</h2>
+        <p class="section-sub">Die Matrix beschreibt Verhaltenslogik, keine Anlageberatung. Sie hilft, Marktphasen sauberer zu lesen.</p>
+        <div class="matrix-grid" id="matrix-grid"></div>
+      </article>
+    </section>
+
+    <section class="card section">
+      <h2 class="section-title">Wichtige Indikatoren</h2>
+      <p class="section-sub">Jede Kachel zeigt einen Wert, eine alltagstaugliche Erklärung, warum er relevant ist, und einen kleinen Verlauf. Fachbegriffe werden direkt im Produkt entschärft.</p>
+      <div class="indicators-grid" id="indicators-grid"></div>
+      <div class="helper">Hinweis: Auf Mobilgeräten öffnen sich die kleinen Infofelder per Tap. Monats- und Quartalsreihen aktualisieren sich naturgemäß langsamer als tägliche Marktpreise.</div>
+    </section>
+
+    <section class="card section">
+      <h2 class="section-title">Weltkontext</h2>
+      <p class="section-sub">Der Kompass schaut nicht nur auf die USA. Europa, Japan und China helfen einzuordnen, ob Stress lokal oder breiter verteilt ist.</p>
+      <div class="regions-grid" id="regions-grid"></div>
+    </section>
+
+    <section class="card section">
+      <h2 class="section-title">Marktkontext aus Nachrichten</h2>
+      <p class="section-sub">Die News sind kein Feed zum endlosen Scrollen, sondern eine kleine Kontextschicht. Sie zeigen, welche Themen Märkte kurzfristig zusätzlich bewegen könnten.</p>
+      <div class="news-grid" id="news-grid"></div>
+    </section>
+
+    <footer class="card footer">
+      <p><strong>Rechtlicher Hinweis:</strong> Dieses Produkt dient ausschließlich der allgemeinen Information und Marktphasen-Einordnung. Es ist keine Anlageberatung, keine Finanzanalyse und keine Aufforderung zum Kauf oder Verkauf von Wertpapieren.</p>
+      <p>Datenstände können je nach Quelle täglich, monatlich, quartalsweise oder jährlich erscheinen. Ein älterer Datenpunkt ist deshalb nicht automatisch ein Fehler, sondern oft nur Ausdruck des Veröffentlichungsrhythmus der Originalquelle.</p>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script>
+    const DATA_URL='./data/latest.json';
+    const RANGES={ '1M':31,'3M':93,'6M':186,'12M':372,'MAX':Infinity };
+    const indicatorMeta={
+      inflation:{label:'US-Inflation',unit:'%',info:'Zeigt, wie stark die US-Verbraucherpreise im Vergleich zum Vorjahr gestiegen sind. Hohe Inflation belastet Kaufkraft und hält den Zinsdruck oft länger hoch.',relevance:'Relevant, weil Inflation direkt auf Zinsen, Bewertungen und Konsum wirkt.'},
+      fedRate:{label:'Effektive Fed Rate',unit:'%',info:'Der effektive Tageszins am US-Geldmarkt. Er zeigt, wie teuer sehr kurzfristiges Geld aktuell ist.',relevance:'Relevant, weil hohe Kurzfristzinsen Finanzierungsbedingungen straffer machen.'},
+      recProb:{label:'Rezessionssignal USA',unit:'%',info:'Kombiniert eine langsamere Monatswahrscheinlichkeit mit der Sahm Rule als schnellerem Arbeitsmarkt-Check.',relevance:'Relevant, weil eine spürbare Konjunkturabkühlung Marktstress verbreitern kann.'},
+      sp500:{label:'S&P 500 seit Jahresanfang',unit:'%',info:'Zeigt, wie sich der breite US-Aktienmarkt seit Jahresanfang entwickelt hat.',relevance:'Relevant, weil Märkte Risiken oft früher einpreisen als Makrodaten.'},
+      sentiment:{label:'Verbrauchervertrauen',unit:'',info:'Misst, wie US-Haushalte ihre Lage einschätzen. Schlechtere Stimmung kann auf vorsichtigere Nachfrage hindeuten.',relevance:'Relevant, weil schwächere Nachfrage das Wachstum zusätzlich bremsen kann.'},
+      tradeStress:{label:'Handels- und Stressindikator',unit:'/100',info:'Ein zusammengesetzter Score aus Volatilität, Energiepreisen, Renditen und Währungsbewegungen.',relevance:'Relevant, weil mehrere Stressquellen in einer Zahl gebündelt werden.'}
+    };
+    const selectedRanges=Object.fromEntries(Object.keys(indicatorMeta).map(k=>[k,'MAX']));
+    const charts={}; let appData=null;
+    const $=id=>document.getElementById(id);
+    const berlinNow=()=>new Date().toLocaleString('de-DE',{timeZone:'Europe/Berlin',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    const fmtDate=s=>!s?'—':new Date(s).toLocaleDateString('de-DE',{day:'2-digit',month:'short',year:'numeric'});
+    const fmtDateTime=s=>!s?'—':new Date(s).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    const fmtNum=(v,d=1)=>Number(v).toLocaleString('de-DE',{minimumFractionDigits:d,maximumFractionDigits:d});
+    const cadenceText=c=>c==='daily'?'täglich':c==='quarterly'?'quartalsweise':c==='annual'?'jährlich':'monatlich';
+    const infoButton=(text,id)=>`<span class="info-wrap" data-info-id="${id}"><button type="button" class="info-btn" aria-label="Mehr Informationen">i</button><span class="info-pop">${text}</span></span>`;
+    const colorFor=l=>l==='h'?'#ff7a7a':l==='m'?'#f6ba62':'#53d39f';
+    const pillText=l=>l==='h'?'hohes Niveau':l==='m'?'erhöht':'ruhiger';
+    const statusOf={
+      inflation:v=>v>4?'h':v>2.5?'m':'l',
+      fedRate:v=>v>5?'h':v>3?'m':'l',
+      recProb:v=>v>50?'h':v>20?'m':'l',
+      sp500:v=>v<-15?'h':v<-5?'m':'l',
+      sentiment:v=>v<65?'h':v<85?'m':'l',
+      tradeStress:v=>v>65?'h':v>35?'m':'l'
+    };
+    const matrixStates=[
+      {key:'normal',title:'Normalphase',cls:'l',copy:'Das Umfeld ist überwiegend geordnet. Einzelne Störgeräusche sind normal.',note:'Neutrale Lesart: nicht jeder kleine Ausschlag ist ein neues Marktsignal.'},
+      {key:'watch',title:'Erhöhte Vorsicht',cls:'m',copy:'Mehrere Signale mahnen zu genauerem Hinsehen, aber ohne klare Eskalation.',note:'Neutrale Lesart: Beobachten, prüfen, nicht hektisch werden.'},
+      {key:'defensive',title:'Defensivere Haltung sinnvoll',cls:'m',copy:'Die Lage ist merklich anspruchsvoller. Risiko gehört bewusster eingeordnet.',note:'Neutrale Lesart: Qualität, Liquidität und Disziplin werden wichtiger.'},
+      {key:'stress',title:'Hohes Stressniveau',cls:'h',copy:'Mehrere Belastungsachsen zeigen gleichzeitig roten Bereich.',note:'Neutrale Lesart: Erst Lage lesen, dann Entscheidungen nur mit kühlem Kopf treffen.'}
+    ];
+
+    function computeScenarios(d){
+      const infl=d.indicators.inflation.value,fed=d.indicators.fedRate.value,rec=d.indicators.recProb.value,sp=d.indicators.sp500.ytd,sent=d.indicators.sentiment.value,stress=d.indicators.tradeStress.value,global=d.globalComposite?.value||0;
+      let a=10,b=38,c=52;
+      if(rec>55){a+=7;b+=4;c-=11}else if(rec>25){b+=5;c-=5}else if(rec<10){c+=4;b-=4}
+      if(infl>4.5){a+=6;b+=4;c-=10}else if(infl>3){b+=4;c-=4}else if(infl<2.3){c+=4;b-=4}
+      if(stress>65){a+=6;b+=4;c-=10}else if(stress>35){b+=4;c-=4}else{c+=3;b-=3}
+      if(sp<-15){a+=4;b+=4;c-=8}else if(sp<-5){b+=4;c-=4}else if(sp>8){c+=3;b-=3}
+      if(global>62){a+=4;b+=3;c-=7}else if(global>38){b+=3;c-=3}else{c+=2;b-=2}
+      if(fed>5&&infl>3)b+=2,c-=2;
+      if(sent<60)b+=2,c-=2;
+      a=Math.max(4,a);b=Math.max(8,b);c=Math.max(8,c);
+      const total=a+b+c; const A=Math.round(a/total*100), B=Math.round(b/total*100); return {A,B,C:100-A-B};
+    }
+
+    function overallState(d,sc){
+      const stress=d.indicators.tradeStress.value, rec=d.indicators.recProb.value, infl=d.indicators.inflation.value, sp=d.indicators.sp500.ytd, global=d.globalComposite?.value||0;
+      if(stress>65 || (rec>50&&infl>3) || sc.A>=35) return {key:'stress',headline:'Das Marktumfeld ist aktuell klar stressbelastet.',summary:'Mehrere Risikosignale ziehen in dieselbe Richtung. Das spricht eher für eine Phase, in der Schutz, Einordnung und Disziplin wichtiger sind als schnelle Reaktionen.'};
+      if(stress>40 || rec>20 || infl>3 || global>40 || sp<-8) return {key:'defensive',headline:'Das Marktumfeld ist aktuell angespannt, aber nicht klar eskaliert.',summary:'Die Daten zeigen spürbaren Gegenwind, aber noch keinen eindeutig bestätigten Vollbruch. Das Umfeld verlangt saubere Einordnung statt Alarmismus.'};
+      if(stress>25 || global>30 || sp<0) return {key:'watch',headline:'Das Marktumfeld verlangt erhöhte Aufmerksamkeit.',summary:'Einige Signale sind bereits rauer geworden. Das Bild ist gemischt und sollte aufmerksam, aber ohne Überreaktion gelesen werden.'};
+      return {key:'normal',headline:'Das Marktumfeld wirkt derzeit überwiegend geordnet.',summary:'Es gibt keine breite Stressbestätigung. Einzelne Auffälligkeiten sind eher normales Marktrauschen als ein klarer Regimewechsel.'};
+    }
+
+    function investorMeaning(state){
+      if(state.key==='stress') return [
+        'Die aktuelle Marktphase spricht eher für nüchterne Risikolesung als für spontane Aktionen. Wer investiert ist, sollte vor allem auf Robustheit, Liquidität und Regelklarheit achten.',
+        'Wichtig ist dabei die Tonlage: Das ist kein Alarmknopf, sondern eine Einordnung, dass emotionale Entscheidungen in solchen Phasen besonders fehleranfällig werden.'
+      ];
+      if(state.key==='defensive') return [
+        'Die aktuelle Marktphase ist nicht harmlos, aber auch nicht automatisch ein Ausnahmezustand. Für Anleger heißt das vor allem: sorgfältiger trennen zwischen kurzfristigem Lärm und echter Lageverschlechterung.',
+        'Ruhige Risikoabwägung ist hier wertvoller als das Jagen einzelner Schlagzeilen oder hektischer Marktbewegungen.'
+      ];
+      if(state.key==='watch') return [
+        'Das Umfeld zeigt erste Warnlichter, aber kein breites Krisensignal. Für Anleger bedeutet das vor allem: aufmerksamer hinschauen, ohne sofort jede Bewegung überzuinterpretieren.',
+        'In solchen Phasen ist Regelorientierung besonders nützlich, weil das Bild gemischt ist und Bauchgefühl oft zu stark schwankt.'
+      ];
+      return [
+        'Das Umfeld wirkt aktuell eher geordnet. Für Anleger heißt das nicht Entwarnung für immer, aber die Daten sprechen im Moment nicht für eine breite Stresslage.',
+        'Gerade in ruhigeren Phasen bleibt es sinnvoll, Strukturen und Regeln beizubehalten statt Sicherheit mit Sorglosigkeit zu verwechseln.'
+      ];
+    }
+
+    function renderMatrix(active){
+      $('matrix-grid').innerHTML=matrixStates.map(s=>`<div class="matrix-item"><span class="state-pill ${s.cls}">${s.title}</span><h3>${s.key===active?'Aktuelle Zuordnung':'Einordnungsebene'}</h3><p>${s.copy}</p><p style="margin-top:8px">${s.note}</p></div>`).join('');
+    }
+
+    function scenarioWhy(d){
+      const infl=d.indicators.inflation.value, rec=d.indicators.recProb.value, sp=d.indicators.sp500.ytd, stress=d.indicators.tradeStress.value, global=d.globalComposite?.value||0;
+      const reasonA=[]; const reasonB=[]; const reasonC=[];
+      if(infl>3.5) reasonA.push('Inflation bleibt klar erhöht'); else reasonC.push('Inflation wirkt weniger eskalierend');
+      if(rec>25) {reasonA.push('Rezessionsrisiko ist erhöht'); reasonB.push('Konjunktursorgen bleiben sichtbar');} else reasonC.push('Rezessionssignal ist bisher begrenzt');
+      if(stress>45) {reasonA.push('Stressindikator sendet Warnsignale'); reasonB.push('mehrere Märkte zeigen Belastung');} else reasonC.push('Stressniveau ist noch beherrschbar');
+      if(sp<0) reasonB.push('Aktienmarkt preist einen Teil des Risikos bereits ein'); else reasonC.push('Aktienmarkt zeigt keine klare Kapitulation');
+      if(global>40) {reasonA.push('globaler Gegenwind ist spürbar'); reasonB.push('der Weltkontext bleibt fragil');} else reasonC.push('globaler Kontext wirkt gemischt statt flächig negativ');
+      return {
+        A:(reasonA.length?reasonA.join(', '):'Der harte Belastungspfad wird aktuell nur begrenzt gestützt.')+'.',
+        B:(reasonB.length?reasonB.join(', '):'Das Zwischenphasenszenario lebt vor allem von einer gemischten Datenlage.')+'.',
+        C:(reasonC.length?reasonC.join(', '):'Das Erholungsszenario stützt sich auf das Fehlen einer breiten Eskalation.')+'.'
+      };
+    }
+
+    function buildIndicators(){
+      const grid=$('indicators-grid');
+      grid.innerHTML='';
+      Object.entries(indicatorMeta).forEach(([key,meta])=>{
+        const el=document.createElement('article');
+        el.className='card indicator';
+        el.id=`card-${key}`;
+        el.innerHTML=`<div class="indicator-top"><div class="indicator-title">${meta.label} ${infoButton(meta.info,key)}</div><div class="pill" id="pill-${key}">—</div></div><div><span class="indicator-value" id="value-${key}">—</span> <span class="indicator-unit">${meta.unit}</span></div><div class="indicator-text" id="text-${key}">—</div><div class="indicator-date" id="date-${key}">—</div><div class="indicator-extra" id="extra-${key}">Warum relevant? ${meta.relevance}</div><div class="tabs" id="tabs-${key}"></div><div class="chart-shell"><div class="chart-meta" id="meta-${key}"><span>Zeitraum: —</span><span>Datenpunkte: —</span></div><div class="chart-wrap"><canvas id="chart-${key}"></canvas></div><div class="chart-foot" id="foot-${key}"><span>Ansicht: MAX</span><span>—</span></div></div>`;
+        grid.appendChild(el);
+        const tabs=$(`tabs-${key}`);
+        Object.keys(RANGES).forEach(r=>{
+          const b=document.createElement('button'); b.className='tab'+(r==='MAX'?' active':''); b.textContent=r; b.addEventListener('click',()=>{selectedRanges[key]=r; [...tabs.children].forEach(x=>x.classList.toggle('active',x.textContent===r)); renderChart(key);}); tabs.appendChild(b);
+        });
+      });
+    }
+
+    function downsample(points,max=220){ if(!points||points.length<=max) return points||[]; const out=[]; const step=(points.length-1)/(max-1); for(let i=0;i<max;i++) out.push(points[Math.round(i*step)]); return out; }
+    function spYtdHistory(points){ if(!points||!points.length) return []; const first=points[0].value; return points.map(p=>({date:p.date,value:first?((p.value/first)-1)*100:0})); }
+    function rangeSlice(points,rangeKey,cadence){ if(rangeKey==='MAX') return points; if(!points.length) return points; const last=new Date(points[points.length-1].date); const cut=new Date(last); cut.setDate(cut.getDate()-RANGES[rangeKey]); const f=points.filter(p=>new Date(p.date)>=cut); if(f.length>=2) return f; return cadence==='daily'?points.slice(-10):points.slice(-4); }
+
+    function noteFor(key,d){
+      if(key==='inflation') return d.value>3 ? 'Die Teuerung liegt noch über einem ruhigen Komfortbereich.' : 'Der Preisdruck wirkt deutlich weniger aggressiv als in einer echten Inflationsspirale.';
+      if(key==='fedRate') return d.value>5 ? 'Kurzfristiges Geld ist teuer. Das macht Finanzierungsbedingungen straffer.' : 'Die Finanzierungsbedingungen wirken nicht extrem locker.';
+      if(key==='recProb') return d.value>20 ? 'Das Rezessionssignal sollte ernst genommen, aber nicht isoliert gelesen werden.' : 'Der langsame Rezessionsindikator sendet aktuell keinen starken Alarm.';
+      if(key==='sp500') return d.ytd<0 ? 'Der Markt preist Risiken bereits teilweise ein.' : 'Der Markt signalisiert bislang keine breite Kapitulation.';
+      if(key==='sentiment') return d.value<65 ? 'Die Stimmung der Haushalte wirkt gedämpft.' : 'Die Stimmung ist nicht euphorisch, aber auch nicht kollabiert.';
+      if(key==='tradeStress') return 'Der Score bündelt mehrere Belastungsachsen in einer Zahl von 0 bis 100.';
+      return '—';
+    }
+
+    function extraFor(key,d){
+      if(key==='recProb'){ const fp=d.fastProxy||{}; return `Schneller Zusatzcheck: ${fp.label||'Sahm Rule'} ${fp.value!=null?fmtNum(fp.value,2):'—'} · Datenstand ${fmtDate(fp.date)}`; }
+      if(key==='sp500') return `Startwert ${Math.round(d.first||0).toLocaleString('de-DE')} → aktuell ${Math.round(d.latest||0).toLocaleString('de-DE')}`;
+      if(key==='tradeStress') return `Komponenten: VIX ${fmtNum(d.components?.vix||0,2)}, Brent ${fmtNum(d.components?.brent||0,2)}, EUR/USD ${fmtNum(d.components?.eurusd||0,4)}, US 10Y ${fmtNum(d.components?.us10y||0,2)}`;
+      return `Seriencode: ${d.series||'—'}`;
+    }
+
+    function renderChart(key){
+      const d=appData.indicators[key];
+      let points=appData.history[key]||[];
+      if(key==='sp500') points=spYtdHistory(points);
+      points=rangeSlice(points,selectedRanges[key],d.cadence||'daily');
+      points=downsample(points,220);
+      const level=document.getElementById(`card-${key}`).dataset.level||'m';
+      const canvas=$(`chart-${key}`); if(!canvas) return; const ctx=canvas.getContext('2d'); if(charts[key]) charts[key].destroy();
+      if(!points.length){ctx.clearRect(0,0,canvas.width,canvas.height); return;}
+      charts[key]=new Chart(ctx,{type:'line',data:{labels:points.map(p=>fmtDate(p.date)),datasets:[{data:points.map(p=>p.value),borderColor:colorFor(level),pointBackgroundColor:colorFor(level),pointBorderColor:colorFor(level),pointRadius:points.length<=24?3:0,pointHitRadius:14,pointHoverRadius:5,borderWidth:2.5,tension:.28}]},options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{display:false},tooltip:{displayColors:false,backgroundColor:'rgba(12,18,28,.96)',borderColor:'rgba(255,255,255,.14)',borderWidth:1,titleColor:'#edf3fb',bodyColor:'#d5e1ec',padding:12,callbacks:{title(items){const i=items?.[0]?.dataIndex??0; return fmtDate(points[i].date);},label(item){return `Wert: ${Number(item.parsed.y).toLocaleString('de-DE',{maximumFractionDigits:2})}${indicatorMeta[key].unit?` ${indicatorMeta[key].unit}`:''}`;}}}},scales:{x:{grid:{display:false},ticks:{color:'#9eb2c7',autoSkip:true,maxTicksLimit:5,maxRotation:0}},y:{grid:{color:'rgba(255,255,255,.09)'},ticks:{color:'#9eb2c7',maxTicksLimit:5}}}}});
+      $(`meta-${key}`).innerHTML=`<span>Zeitraum: ${fmtDate(points[0].date)} → ${fmtDate(points[points.length-1].date)}</span><span>Datenpunkte: ${points.length}</span>`;
+      $(`foot-${key}`).innerHTML=`<span>Ansicht: ${selectedRanges[key]}</span><span>Letzte Beobachtung: ${Number(points[points.length-1].value).toLocaleString('de-DE',{maximumFractionDigits:2})}${indicatorMeta[key].unit?` ${indicatorMeta[key].unit}`:''}</span>`;
+    }
+
+    function renderIndicators(){
+      const ind=appData.indicators;
+      const rows=[
+        ['inflation',ind.inflation,ind.inflation.value],
+        ['fedRate',ind.fedRate,ind.fedRate.value],
+        ['recProb',ind.recProb,ind.recProb.value],
+        ['sp500',ind.sp500,ind.sp500.ytd],
+        ['sentiment',ind.sentiment,ind.sentiment.value],
+        ['tradeStress',ind.tradeStress,ind.tradeStress.value]
+      ];
+      rows.forEach(([key,obj,val])=>{
+        const level=statusOf[key](val); const card=$(`card-${key}`); card.dataset.level=level;
+        $(`pill-${key}`).className=`pill ${level}`; $(`pill-${key}`).textContent=pillText(level);
+        $(`value-${key}`).textContent=key==='sp500' ? `${val>=0?'+':''}${fmtNum(val,1)}` : fmtNum(val,key==='tradeStress'?0:key==='fedRate'?2:1);
+        $(`value-${key}`).style.color=colorFor(level);
+        $(`text-${key}`).textContent=noteFor(key,obj);
+        $(`date-${key}`).textContent=`Datenstand: ${fmtDate(obj.date)} · Rhythmus: ${cadenceText(obj.cadence)}`;
+        $(`extra-${key}`).textContent=`Warum relevant? ${indicatorMeta[key].relevance} ${extraFor(key,obj) ? '· '+extraFor(key,obj):''}`;
+        renderChart(key);
+      });
+    }
+
+    function renderRegions(regions){
+      const order=['europe','japan','china'];
+      $('regions-grid').innerHTML=order.map(key=>{
+        const r=regions?.[key]; if(!r) return '';
+        const lvl=(r.score||0)>=65?'h':(r.score||0)>=40?'m':'l';
+        return `<article class="card region"><div class="region-top"><div><h3>${r.name}</h3><p>${r.summary||''}</p></div><span class="pill ${lvl}">${r.label||'—'}</span></div><div class="region-kpis"><div class="kpi"><div class="lab">Inflation</div><div class="val">${r.inflation?.value!=null?fmtNum(r.inflation.value,2)+(r.inflation.unit?` ${r.inflation.unit}`:''):'—'}</div><div class="sub">${fmtDate(r.inflation?.date)} · ${cadenceText(r.inflation?.cadence)}</div></div><div class="kpi"><div class="lab">Wachstum / Zins</div><div class="val">${r.growthOrRate?.value!=null?fmtNum(r.growthOrRate.value,2)+(r.growthOrRate.unit?` ${r.growthOrRate.unit}`:''):'—'}</div><div class="sub">${r.growthOrRate?.label||'—'} · ${fmtDate(r.growthOrRate?.date)}</div></div><div class="kpi"><div class="lab">Währung</div><div class="val">${r.fx?.value!=null?fmtNum(r.fx.value,4)+(r.fx.unit?` ${r.fx.unit}`:''):'—'}</div><div class="sub">${r.fx?.label||'—'} · ${fmtDate(r.fx?.date)}</div></div></div><p>${r.driverText||''}</p></article>`;
+      }).join('');
+    }
+
+    function renderNews(items){
+      if(!items||!items.length){ $('news-grid').innerHTML='<div class="helper">Aktuell sind keine News-Einträge in <code>data/latest.json</code> vorhanden.</div>'; return; }
+      $('news-grid').innerHTML=items.slice(0,6).map(item=>`<article class="card news"><div class="news-head"><a href="${item.link||'#'}" target="_blank" rel="noreferrer noopener"><h3>${item.title}</h3></a><span class="bucket">${item.bucket||'Marktkontext'}</span></div><div class="news-meta">${item.source||'Quelle'} · ${fmtDateTime(item.publishedAt)}</div><div class="news-copy">${item.summary||''}</div><div class="impact-grid"><div class="impact"><div class="lab">Impact</div><div class="val">${item.impact||'Mittel'}</div></div><div class="impact"><div class="lab">Wahrscheinlichkeit</div><div class="val">${item.probability||'Mittel'}</div></div><div class="impact"><div class="lab">Zeitraum</div><div class="val">${item.horizon||'Kurzfristig'}</div></div><div class="impact"><div class="lab">Mögliche Kurswirkung</div><div class="val">${item.priceEffect||'Breiter Marktkontext ohne klaren Einzeltreiber.'}</div></div></div><div class="tags">${(item.assets||[]).map(a=>`<span class="tag">${a}</span>`).join('')}</div></article>`).join('');
+    }
+
+    function applyScenarios(sc){
+      ['A','B','C'].forEach(id=>{ $(`prob-${id}`).innerHTML=`${sc[id]} <small>%</small>`; $(`bar-${id}`).style.width=`${sc[id]}%`; });
+      const why=scenarioWhy(appData); $('why-A').textContent=why.A; $('why-B').textContent=why.B; $('why-C').textContent=why.C;
+    }
+
+    function renderStatus(){
+      const sc=computeScenarios(appData); applyScenarios(sc);
+      const st=overallState(appData,sc);
+      $('market-headline').textContent=st.headline;
+      $('market-summary').textContent=st.summary;
+      $('market-foot').textContent=`Letzte Aktualisierung: ${fmtDateTime(appData.fetchedAt)}`;
+      const meanings=investorMeaning(st); $('investor-meaning').textContent=meanings[0]; $('meaning-copy-1').textContent=meanings[0]; $('meaning-copy-2').textContent=meanings[1];
+      renderMatrix(st.key);
+    }
+
+    function setHeader(){
+      $('fresh-text').textContent=`Datenstand: ${fmtDateTime(appData.fetchedAt)}`;
+      const ageHours=(Date.now()-new Date(appData.fetchedAt).getTime())/36e5; $('fresh-dot').classList.toggle('stale', ageHours>8);
+      $('source-text').textContent=appData.meta?.source || 'FRED + Google News RSS';
+    }
+
+    function closeInfo(){ document.querySelectorAll('.info-wrap.open').forEach(x=>x.classList.remove('open')); }
+    document.addEventListener('click',e=>{ const btn=e.target.closest('.info-btn'); if(btn){ const wrap=btn.closest('.info-wrap'); const open=wrap.classList.contains('open'); closeInfo(); if(!open) wrap.classList.add('open'); e.stopPropagation(); return; } if(!e.target.closest('.info-wrap')) closeInfo(); });
+
+    async function load(){
+      try{
+        const res=await fetch(DATA_URL+'?t='+Date.now()); if(!res.ok) throw new Error(`HTTP ${res.status}`);
+        appData=await res.json();
+        setHeader(); buildIndicators(); renderStatus(); renderIndicators(); renderRegions(appData.regions||{}); renderNews(appData.news||[]);
+      }catch(err){
+        document.querySelector('.shell').insertAdjacentHTML('afterbegin', `<section class="card section"><h2 class="section-title">Fehler beim Laden</h2><p class="section-sub">${String(err.message||err)}</p></section>`);
+      }
+    }
+
+    setInterval(()=>{ $('berlin-clock').textContent=berlinNow(); },1000); $('berlin-clock').textContent=berlinNow();
+    load(); setInterval(load, 5*60*1000);
+  </script>
+</body>
+</html>

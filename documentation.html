@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dokumentation · Marktrisiko-Kompass BASIC</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0f1722;--panel:rgba(255,255,255,.04);--border:rgba(255,255,255,.08);--text:#edf3fb;--text2:#c5d4e4;--text3:#8fa7c0;--shadow:0 20px 60px rgba(0,0,0,.22);--radius:22px;--font:'Inter',system-ui,sans-serif;--serif:'Fraunces',Georgia,serif;--blue-bg:rgba(143,196,255,.14)}
+    *{box-sizing:border-box}body{margin:0;font-family:var(--font);background:radial-gradient(circle at top, rgba(79,123,179,.18), transparent 36%),linear-gradient(180deg,#0d1520,#121c29 30%,#111926 100%);color:var(--text)}a{color:inherit}
+    .topbar{position:sticky;top:0;z-index:50;background:rgba(14,22,32,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}.topbar-inner{max-width:1100px;margin:0 auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid var(--border);font-size:20px}.brand-over{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3)}.brand-name{font-size:18px;font-weight:700}.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{padding:10px 14px;border:1px solid var(--border);border-radius:999px;text-decoration:none;background:rgba(255,255,255,.04);font-size:13px;color:var(--text2)}.nav a:hover,.nav a.active{background:var(--blue-bg);color:var(--text)}
+    .page{max-width:1100px;margin:0 auto;padding:28px 20px 50px}.card{background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.025));border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}.card + .card{margin-top:16px}.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text3);margin-bottom:12px}.title{margin:0;font-family:var(--serif);font-size:clamp(34px,5vw,54px);line-height:1.03;letter-spacing:-.04em}.lead{margin:16px 0 0;color:var(--text2);font-size:16px;line-height:1.8}.section-title{margin:0 0 12px;font-family:var(--serif);font-size:32px;line-height:1.1}.card p,.card li{color:var(--text2);font-size:15px;line-height:1.85}.card ul{margin:0;padding-left:20px}.table{width:100%;border-collapse:collapse;margin-top:10px}.table th,.table td{padding:14px 0;border-top:1px solid var(--border);vertical-align:top;text-align:left;color:var(--text2);font-size:14px;line-height:1.75}.table th{width:28%;color:var(--text)}code{padding:2px 6px;border-radius:6px;border:1px solid var(--border);background:rgba(255,255,255,.05)}strong{color:var(--text)}
+    @media (max-width:760px){.page,.topbar-inner{padding-left:16px;padding-right:16px}.card{padding:18px}.table th,.table td{display:block;width:auto;padding:10px 0}.table tr{display:block;padding:8px 0}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./index.html"><div class="brand-mark">🧭</div><div><div class="brand-over">BASIC · GitHub Pages</div><div class="brand-name">Marktrisiko-Kompass</div></div></a>
+      <nav class="nav"><a href="./index.html">Dashboard</a><a class="active" href="./documentation.html">Dokumentation</a></nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="card">
+      <div class="kicker">Dokumentation</div>
+      <h1 class="title">Was dieses Produkt macht – in klarer Sprache</h1>
+      <p class="lead">Der Marktrisiko-Kompass ist ein deutschsprachiges Einordnungswerkzeug für Privatanleger. Er verdichtet Markt-, Makro- und Stresssignale zu einer verständlichen Marktphasen-Lesung. Er soll Orientierung geben, nicht mit Datenmenge beeindrucken.</p>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">1. Wofür die BASIC-Version gedacht ist</h2>
+      <p>Die BASIC-Version beantwortet vier praktische Fragen:</p>
+      <ul>
+        <li>Wie angespannt ist das Marktumfeld aktuell?</li>
+        <li>Welche Marktpfade sind derzeit plausibler als andere?</li>
+        <li>Welche Indikatoren stützen diese Lesung?</li>
+        <li>Wie sollte man das als Anleger neutral einordnen, ohne in Alarmismus zu verfallen?</li>
+      </ul>
+      <p>Das Produkt ist bewusst <strong>regelbasiert, verständlich und ruhiger gestaltet</strong>. Es soll keine Terminal-Optik haben und keine Anlageberatung ersetzen.</p>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">2. Warum manche Daten älter aussehen können</h2>
+      <p>Marktpreise wie Aktienindex, Öl oder Wechselkurse können täglich kommen. Andere Reihen wie Inflation, Verbrauchervertrauen oder bestimmte Rezessionsmodelle erscheinen nur monatlich, quartalsweise oder jährlich. Ein älterer Datenpunkt bedeutet deshalb <strong>nicht automatisch einen Fehler</strong>.</p>
+      <p>Darum zeigt der Kompass den Datenstand und den Veröffentlichungsrhythmus bewusst getrennt.</p>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">3. Wie die Szenarien entstehen</h2>
+      <p>Die Szenarien A, B und C sind <strong>regelbasierte Modellgewichte</strong>. Jeder wichtige Indikator schiebt das Gesamtbild in eine Richtung. Hohe Inflation, höherer Marktstress oder breiter globaler Gegenwind erhöhen eher die Wahrscheinlichkeit belastender Szenarien. Niedrigerer Stress und stabilere Marktverläufe stützen eher das beherrschbare Szenario.</p>
+      <table class="table">
+        <tr><th>Szenario A</th><td><strong>Anhaltender Druck.</strong> Spricht für eine längere, schwierigere Marktphase mit zähem Gegenwind.</td></tr>
+        <tr><th>Szenario B</th><td><strong>Zähe Zwischenphase.</strong> Belastungen bleiben sichtbar, aber nicht alles kippt gleichzeitig.</td></tr>
+        <tr><th>Szenario C</th><td><strong>Beherrschbarer Schock.</strong> Stress ist vorhanden, wirkt aber begrenzter und eher stabilisierbar.</td></tr>
+      </table>
+      <p>Wichtig: Die Prozentwerte sind keine Vorhersage mit Gewissheit. Sie sind eine strukturierte Lesung der aktuellen Datenlage.</p>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">4. Die wichtigsten Indikatoren einfach erklärt</h2>
+      <table class="table">
+        <tr><th>US-Inflation</th><td>Zeigt, wie stark die Verbraucherpreise im Vergleich zum Vorjahr gestiegen sind. Relevant, weil Inflation Kaufkraft, Zinsen und Bewertungen beeinflusst.</td></tr>
+        <tr><th>Effektive Fed Rate</th><td>Der aktuelle Tageszins am US-Geldmarkt. Vereinfacht: Wie teuer ist sehr kurzfristiges Geld? Hohe Werte deuten auf straffere Finanzierungsbedingungen hin.</td></tr>
+        <tr><th>Rezessionssignal USA</th><td>Kombiniert eine langsamere Monatswahrscheinlichkeit mit der Sahm Rule als schnellerem Arbeitsmarkt-Check.</td></tr>
+        <tr><th>S&amp;P 500 seit Jahresanfang</th><td>Zeigt, ob der breite Aktienmarkt bereits Risiken einpreist oder sich noch erstaunlich stabil hält.</td></tr>
+        <tr><th>Verbrauchervertrauen</th><td>Misst die Stimmung der Haushalte. Sie ist kein perfekter Krisenindikator, aber ein nützlicher Hinweis auf vorsichtigere Nachfrage.</td></tr>
+        <tr><th>Handels- und Stressindikator</th><td>Ein Sammelwert aus Volatilität, Energiepreisen, Renditen und Währungsbewegungen. So wird aus vielen Einzelpunkten eine leichter lesbare Gesamtzahl.</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">5. Bedeutung der Handlungsmatrix</h2>
+      <p>Die Handlungsmatrix gibt keine Kauf- oder Verkaufssignale. Sie übersetzt die Marktphase in eine neutrale Verhaltensebene:</p>
+      <ul>
+        <li><strong>Normalphase:</strong> kein breites Stresssignal.</li>
+        <li><strong>Erhöhte Vorsicht:</strong> aufmerksamer hinschauen, aber nicht überreagieren.</li>
+        <li><strong>Defensivere Haltung sinnvoll:</strong> Gegenwind ist spürbar, Qualität und Disziplin werden wichtiger.</li>
+        <li><strong>Hohes Stressniveau:</strong> mehrere Belastungsachsen sind gleichzeitig aktiv.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">6. Rechtlicher Rahmen</h2>
+      <p>Der Marktrisiko-Kompass dient ausschließlich der allgemeinen Information und Marktphasen-Einordnung. Er ist <strong>keine Anlageberatung, keine Finanzanalyse und keine individuelle Empfehlung</strong>.</p>
+      <p>Wenn du das Produkt öffentlich nutzt, sollte die Datei <code>data/latest.json</code> regelmäßig per Workflow aktualisiert werden. Das Dashboard selbst lädt nur diese Datei neu; es greift nicht direkt auf FRED oder News-Seiten zu.</p>
+    </section>
+  </main>
+</body>
+</html>
