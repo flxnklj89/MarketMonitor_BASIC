@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-17T06:24:13.651225+00:00",
+  "fetchedAt": "2026-04-17T11:15:48.547361+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20579,6 +20579,23 @@
       ]
     },
     {
+      "title": "Wall St Week Ahead Surging record-high US stocks to wade deeper into earnings season",
+      "source": "Reuters",
+      "publishedAt": "2026-04-17T10:04:17+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWJmWUFPa2lnWnJCby1JSlA3dU1XVE9YeVpJMTJOSzlzXzI2ZnJqZkREdFlHMENwcldMZFRZaFRkSVlJMm1YdnY4a1ZHN21XRk9kZzFiQW5oYzRxMlJWTHlUNHcxVDR5Ml9UODlxdzNlSDlHVEE3eWR0eFNFOW1YcnI0NzVDZUhjSTdEOHNvWnpLTmJQNTZJZXgwc3RvOWJ4OE94V1N0NnlTV2xpZXFpTHpyUExlX195S19R?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Brent Crude Rises for Second Day in A Row. U.S. Oil Prices Fall.",
       "source": "Barron's",
       "publishedAt": "2026-04-16T19:59:00+00:00",
@@ -20615,27 +20632,10 @@
       ]
     },
     {
-      "title": "Wall Street sets another record after US stocks tick higher",
-      "source": "AP News",
-      "publishedAt": "2026-04-16T20:52:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX296UDBvTWgzLUJsUUcwQVU3V1NHd1R6d0p2Ukx6cEpIeHhpYjVDVHQ4LXVVa2MzYk1XWHVtaFUtQy1ad3U0RnJqVkRVLWJ3OUI1Sm5ya25kaWJsRENZNU5oU1U1TVlYd3MxLUdxdHVHd2V2TVNrd201RzdiVTVPM0xydWIwZU1oNk1fRXlLa2UwRTJXcFA0?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Oil prices are no longer a problem for the stock market. That may quickly change.",
-      "source": "MSN",
-      "publishedAt": "2026-04-16T20:12:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWk5PS2VqbFIwREVZZkk1MkJiSVFuQVByZHJ1alFXa3Y2OXJ5eFhuNW9uVGVXVm5XR1NoWVlZekVhZWlNdk0tSTFjY1FRVVJNUm5YaFVJY19Rd1k2NVV0dVFzaHZtbGlCd3lJLVE2WlduZFI2QUV0a2xPcXAyTWFURnNOSVpBUm0xSDFjWWVsUldleVUxVlFYVUE3YWRWWnNpN2tvaHV5SGZiSldiMDF2TXZndVIzUmd2VklEak5sVGxzTEs2bExDU1dBZw?oc=5",
+      "title": "US Stock Market Before Open Today: S&P 500 Futures Hold Near Records as Oil Falls and Netflix Slumps",
+      "source": "TechStock²",
+      "publishedAt": "2026-04-17T09:04:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQkpWTXpTRFVOMXVIY1NBR1pySkZyam9GTTJtclZLNmY5MUliLTY0R0Z4YnIxQ3RpeEV3MjZGSHlDTHZ6NEk4cjRjQ2I3a1VySFZkMTk3eHd1a0MwNTBNVmlLX3IzS2lUSmFIekRJTmFER2JqTlZXNUJYMFZETkUxZUpLcjRhNEtxWHhNU2pMeUp6Vk13Snh1VUxkR1ZkNlFWOWpHMEU2Z1I5eWZ6dndpaG0wdktsVkZTQXlJ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20650,20 +20650,20 @@
       ]
     },
     {
-      "title": "Tesla, IBM and Intel report earnings next week — here’s the best way to play a volatile market",
-      "source": "MarketWatch",
-      "publishedAt": "2026-04-16T20:57:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdUlDWkZpME9oLUV0UTN5RTlpSTNaQWJicFFPZDI0MUZLdWR3RjNVTGJLOERRclBLaUZSUkc1OFFPZ1NDd2V1d3N2bTFVV0VFRl95NWFoMTlkX0FVbVdZVXFZaVd4NktRMWx6aFRicjNFUm9EM1pKYUhQbzZkWWl6SzE4VDlIRzltcHFiUjU4VXdqMHBxbXFhQ3lVaUpDREwxUjJiX3psQ2dPYzVSRlF6bG1jYXo?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Wall Street sets another record after US stocks tick higher",
+      "source": "AP News",
+      "publishedAt": "2026-04-16T20:52:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX296UDBvTWgzLUJsUUcwQVU3V1NHd1R6d0p2Ukx6cEpIeHhpYjVDVHQ4LXVVa2MzYk1XWHVtaFUtQy1ad3U0RnJqVkRVLWJ3OUI1Sm5ya25kaWJsRENZNU5oU1U1TVlYd3MxLUdxdHVHd2V2TVNrd201RzdiVTVPM0xydWIwZU1oNk1fRXlLa2UwRTJXcFA0?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
