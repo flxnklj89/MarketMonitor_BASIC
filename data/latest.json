@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-20T16:02:41.209961+00:00",
+  "fetchedAt": "2026-04-20T22:11:27.442142+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -58,13 +58,13 @@
       "components": {
         "vix": 17.48,
         "brent": 123.28,
-        "eurusd": 1.1723,
-        "us10y": 4.32
+        "eurusd": 1.1801,
+        "us10y": 4.26
       }
     }
   },
   "globalComposite": {
-    "value": 9.0,
+    "value": 30.0,
     "label": "Stabil",
     "date": "2026-04-20"
   },
@@ -93,8 +93,8 @@
       },
       "fx": {
         "label": "EUR/USD",
-        "value": 1.1723,
-        "date": "2026-04-10",
+        "value": 1.1801,
+        "date": "2026-04-17",
         "unit": "",
         "cadence": "daily",
         "series": "DEXUSEU"
@@ -102,8 +102,8 @@
     },
     "japan": {
       "name": "Japan",
-      "score": 12.0,
-      "label": "Stabil",
+      "score": 52.0,
+      "label": "Beobachten",
       "date": "2030-01-01",
       "summary": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "driverText": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
@@ -116,16 +116,16 @@
       },
       "growthOrRate": {
         "label": "BIP-Wachstum YoY",
-        "value": null,
-        "date": "",
+        "value": 0.54,
+        "date": "2025-10-01",
         "unit": "%",
         "cadence": "quarterly",
         "series": "JPNRGDPEXP"
       },
       "fx": {
         "label": "JPY pro USD",
-        "value": null,
-        "date": "",
+        "value": 158.1,
+        "date": "2026-04-17",
         "unit": "",
         "cadence": "daily",
         "series": "DEXJPUS"
@@ -133,30 +133,30 @@
     },
     "china": {
       "name": "China",
-      "score": 0.0,
+      "score": 23.0,
       "label": "Stabil",
-      "date": "",
+      "date": "2030-01-01",
       "summary": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "driverText": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "inflation": {
-        "value": null,
-        "date": "",
+        "value": 2.02,
+        "date": "2030-01-01",
         "unit": "%",
         "cadence": "annual",
         "series": "CHNPCPIPCPPPT"
       },
       "growthOrRate": {
         "label": "BIP-Wachstum",
-        "value": null,
-        "date": "",
+        "value": 5.0,
+        "date": "2025-01-01",
         "unit": "%",
         "cadence": "annual",
         "series": "CHNGDPRAPSMEI"
       },
       "fx": {
         "label": "CNY pro USD",
-        "value": null,
-        "date": "",
+        "value": 6.817,
+        "date": "2026-04-17",
         "unit": "",
         "cadence": "daily",
         "series": "DEXCHUS"
@@ -194,17 +194,17 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.32,
-      "chg": 0.03,
-      "chgPct": 0.7,
+      "val": 4.26,
+      "chg": -0.06,
+      "chgPct": -1.39,
       "unit": "%",
       "dec": 2
     },
     {
       "label": "EUR/USD",
       "icon": "💱",
-      "val": 1.1723,
-      "chg": 0.0017,
+      "val": 1.1801,
+      "chg": 0.0018,
       "chgPct": 0.15,
       "unit": "",
       "dec": 4
@@ -20574,6 +20574,23 @@
   },
   "news": [
     {
+      "title": "Weekly market commentary",
+      "source": "blackrock.com",
+      "publishedAt": "2026-04-20T17:14:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "The Federal Reserve's April Inflation Forecast Was Just Updated -- and the Outlook for the Stock Market Worsened, Yet Again",
       "source": "The Motley Fool",
       "publishedAt": "2026-04-20T09:06:00+00:00",
@@ -20589,6 +20606,24 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "Experts available: Iran war, oil prices and stock markets, Virginia redistricting, cycling in cities, and more",
+      "source": "Virginia Tech News",
+      "publishedAt": "2026-04-20T17:15:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOV1lMWl9oS2c3ZkFmdzZSeVhHNVZhclVFR1dQN0dTNWZGNGQ4Q1VZUEJIYTQ4Ti1oRFNCejZjUWxNZm9BcUc2MW9jRUZKX2lkX3BPR2FxeHpqdXhaQk1DNGpoOFJzS1JoOUtrczBOVlFYa0RaODh3T1NydWxHc3NWbUFJclZMTS1SbzdROThES0tGZnZYUHRTWjE2UV9GaFNBNUFpOFBoOUlHZW1vRGd1NHlKckk2OEIzNlJqZktxZUJfTlU4Qmt4SE9fZUZmZ1MwVHc?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20609,10 +20644,10 @@
       ]
     },
     {
-      "title": "Oil prices jump and stocks are mixed as the US-Iran standoff keeps the Strait of Hormuz in limbo",
-      "source": "The Middletown Press",
-      "publishedAt": "2026-04-20T09:56:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaFYyVjZtaDBlYjE4c1BackJYaENabUtkdTNxZ01BRHdfMkczY2VqQV9pdWp5TTNnc1hSUWJWNHk2UFh5bEp4QUdVSXN6eVc3U0RwcnV3RWpPaTJPRjZJNkFSdE02bE9DZ3JQRHZacDZ6dDlia3BDSHhjRWp2elo4OFpOaHN6bURBYnRBOXplcUU4MElrbENkalRWY0RkYUt2c3FHbVNhdw?oc=5",
+      "title": "Oil prices rise and U.S. stocks give back a bit of their record-breaking rally",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-04-20T10:06:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYXZiLWdfY1NnMWZOa0tmcnhIek52SlNodHFscjBXZF9IMVRIVWJicXA4b3BtSWZEZmZUOUgyaUhrYWFhRjhQdnROTGhrZkx4WEduN1kzaUxHVmRZZUNkQ01MUDdvdzVIN19oSmJESUNzUnhtTGRXczlXS0JwampjRU93enBGNjQ5TzAyZVNJaEVqMHdYUWV5WjhPRHUwM2xCN1UyTjhreXVWT3M5?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20627,44 +20662,10 @@
       ]
     },
     {
-      "title": "Here’s what the stock market might have gotten wrong about the Iran war",
-      "source": "The Washington Post",
-      "publishedAt": "2026-04-18T18:43:16+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUhqLUcxRUMzckFORGoybXk2LU5qdGRsRHpyY0Q4Zm5kWndiNHBENzZqc3dTN0xrX0t3R0dMbmxwSGNZTkI3dlE5SERqYm1YRmNJMncyc2NUN1lUNUp0S1U2T2h2X3U2N0FVVlI0R3FYZnBZOXBkTlJ2OXJBelk4YU1TUy04dXNr?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Dow Jones futures: What to do amid historic market run; Tesla flashes buy signal with earnings due",
-      "source": "MSN",
-      "publishedAt": "2026-04-20T11:04:16+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTHhfR2VONXJpOTMwLXNCdDBvYkUxX3Y3b3JOaE9jcXR6b3ZuTUNUQW1wMkpDZy1Yc3l2Rnd2M0xob2tucnY0ODFGS2tpcDN3bFZFY3ExdFdiUUhUM1NhcFI4TVZBWTF0YUNWcmVTa3RhbU43Vk9DLWJuMU16c0EybTUzaWJGSURGUWhLN2lXd1JsdG5hazc1U0REUFU2eFM0QU84ODV2aWRWNjNVUFpsNGlmSTJ4dGJiS29mVjJyeFYzSllueXdTWWtfMlZraEhfcVRnXzVXT0VEMGJXZkQ5VnZpdXpKVHQ3eW9YWGo5TGVfd0E?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: S&P 500, Nasdaq, Dow Futures Fall as Oil Jumps and Iran Ceasefire Wobbles",
+      "title": "US Stock Market Today: S&P 500, Nasdaq Slip From Records as Oil Spike Tests Wall Street Rally",
       "source": "TechStock²",
-      "publishedAt": "2026-04-20T13:56:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM1c2cjN5VUI1MzR6elVuOGFhWHJjYmNHOEtJRjNoakw5T0lUMVU2NkdMdlJ5dVBBUmpYOVI4MjJ3UkFJYVlGLURqVlNtMXRhZ3QzMU1CcVgxWnVFRDRKRWJBZFprNmxhUkdhQTMyd0FwOTNBa0VNdlVqSVpIOHg2MFAzdnZycVczR0diYnJtZVo5dTVKZXF2WUJYUTNMRTVxck5KVkhJbEdtZXlPSF9n?oc=5",
+      "publishedAt": "2026-04-20T17:44:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTGxYSFppc0NpRzdiTnY2Wng4cUdCN2VsZml4SlUySk9QRHd4NEc5aTJZX2ZyVm84RE42Tm9MOE9MSDVjVy1zNnctM2U1V1BGancwcExqSTkwb1RDUUhPWmtWMkk1ZlNWTDEzWW9JZ0QzNlpSUjJzOHVoNGFadEVMbjd4T3FBOG5qZkFRSnpSXzk3czVOVUt3XzdnZWFuSHFJbzQ2NjNza2FhM3g3Y21rSA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
