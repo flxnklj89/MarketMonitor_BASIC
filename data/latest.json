@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-14T02:48:44.800559+00:00",
+  "fetchedAt": "2026-05-14T06:43:47.755533+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20605,20 +20605,20 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-05-13T12:07:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXc3MU5KeU00UTVfLWdQYmNJTHZRc0RvNUNKU1VpZTYxMFg3QTRITUtFZFpyVTZlVjRyVWJGX0FEcjJlUENELUwyQmpGRUktQ1U1REJMbDRRSURTRkU4Wkl6Y05Pd2t0b2JnZzd6NE83RTEzdkdjVUVQX3kzX056cFBMZTlaRWJfLWh2VkJzbTBuM2dkOVRBX1laVHE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stock market today: Japan's Nikkei hits new high as SK Hynix nears $1 trillion market cap, Wall Street futures rise",
+      "source": "Economy Middle East",
+      "publishedAt": "2026-05-14T05:39:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZ21nY1VtRlJVd2lyRkdqYkhhbl9ZdHZYREpzd3VPc1lBNWxRamFnbTFJOU5YWFBYc1hlUzZKZGNmWVozYncwa0ZnbUxObDRNakpZM0EtNHgxZDFOZzJjb3F1UEpmZVlzaXhDLW44OS1ndEhZU2k3eWNlOWJnSUw2NVowY2FWRVRyanRSY2lkRGNPRUJlTUR1UlNWcE9JUGh0di0yZHVYYlhrMW5hLV85MVVnMEJkbHZncGtYc3ZPZ3RFTHBsMW5QamNmUTJ1bzVJZE9WNVpGQzlWTnc?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
@@ -20639,24 +20639,6 @@
       ]
     },
     {
-      "title": "Oil Prices Fall. The Stock Market Can’t Keep Ignoring Strait of Hormuz Chaos.",
-      "source": "Barron's",
-      "publishedAt": "2026-05-13T07:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSGJSUnA5dnZmU3F1Rl9KaXpSeWI3VVZjdWdjTVhkU2Q0ck1pTUtQN2NRVXBUeFpRb0ZXZUlWbTJTSlotOTFoa2FJTTEyb2I3M2ZwaWw2bHpUcG91NTFfREs0Sy1QREZxNWZrNTB0VzZjSWxUWkdHMmVfY0FSMXEzNWZBVXVzLVlGQmZuOFhvLVZNRFNKcjRHWl91MDV5dDFXOUFtMDFQMFdYU1IxcHRwODNOeW9BTTlReVEtUldOSktsRUh0M01GR1RqbUpxYnhsZjBsMXl1dG1iaUNOY2k4Y2pyMGJadVBSTDR0X0VaYmdQSC0tVUhYVjJfcXE5Vzg?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "The Stock Market Sounds an Alarm as Investors Get a Warning From the Federal Reserve. History Says This Will Happen Next.",
       "source": "The Motley Fool",
       "publishedAt": "2026-05-13T09:48:00+00:00",
@@ -20672,6 +20654,23 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-05-13T12:07:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXc3MU5KeU00UTVfLWdQYmNJTHZRc0RvNUNKU1VpZTYxMFg3QTRITUtFZFpyVTZlVjRyVWJGX0FEcjJlUENELUwyQmpGRUktQ1U1REJMbDRRSURTRkU4Wkl6Y05Pd2t0b2JnZzd6NE83RTEzdkdjVUVQX3kzX056cFBMZTlaRWJfLWh2VkJzbTBuM2dkOVRBX1laVHE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
