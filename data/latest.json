@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-17T13:13:28.200315+00:00",
+  "fetchedAt": "2026-05-17T16:54:21.193098+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20600,24 +20600,6 @@
       ]
     },
     {
-      "title": "Global Market Highlights for Next Week: NVIDIA Earnings and Federal Reserve Meeting Minutes to Test US Stock Market",
-      "source": "Moomoo",
-      "publishedAt": "2026-05-16T21:36:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbUZyMnRucGVnaFprd0J1dEc2aHMwNjR5d0Q1bmdVanVLTktCSHdhNUw4WC1lSmVFZFpvcHdKbTI1bzRsUFZLQ1lNb05iT3hqQnNKdUlxTnV6Y01oWHpROXZQUUtBeDlNMVhaeHJJNTRLLVUzMGRSTGVkZmFmeUxOd2lrVUJBVWhCSGtaOVFwbFNSanpYRVZvZ0JOclFyZkRCTWxGcWZLRVc2bTZW?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
       "title": "These hidden forces are driving the runaway stock-market rally",
       "source": "MarketWatch",
       "publishedAt": "2026-05-17T13:00:00+00:00",
@@ -20635,42 +20617,6 @@
       ]
     },
     {
-      "title": "There's a Mammoth Disagreement Brewing Within the Federal Reserve Over Artificial Intelligence (AI) -- and It May Reshape Monetary Policy",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-17T11:05:20+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQU56azI3ODVYaWlweGo4bDhqeDMyckd4OG9va1VPNWlkLXVKN1dMMDdkYnRWeTc1QVItUFBLcVFzRmdIcWVxT1lub00tZEx1UWhqWWV3T014em5WaFZ1ZjFFYXVxS1l4MnY3MHc4dEdHekgyUGdSWTFKaVFWLWZsR2Y0NUxuX2doRDl4TEFCdW94NExUeEpB?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Market Week Ahead: Nvidia Earnings, Bond Yields, and Geopolitical Uncertainty",
-      "source": "IndexBox",
-      "publishedAt": "2026-05-17T12:40:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVNtd05QVk5YRElIZjVGTUw0TFk4eGpXVlJiZW1QMzZIMk1QS2NzYWJVRWFvMkdmSHFHSWFvZl9LUXA1TW9BUlNXLV9aT1ZGZkdPaVYtMVpHUTA2WjRKa1d1anJMdHZySjhSV01JTFp5V0lwZUxUYmdhWlpCVUJkZmsyLTRheU9yZUZrbGhlT0xvV2wxLUFPVUlvc0w1VmhsMmNz?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
       "title": "What to Expect in Markets This Week: Nvidia Earnings Are the Main Event, but Walmart's Results Are Coming Too",
       "source": "Investopedia",
       "publishedAt": "2026-05-17T10:00:00+00:00",
@@ -20685,6 +20631,58 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Prediction: May 21 Will Be a Huge Day for the Stock Market. Here's What You Need to Know.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-17T09:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMmFIMHBQZEhpcGtFVU5ib0wwbDYyRFZYbWhERGRDWDRNTmdsajYwOG5TX013anktMzF2LW5yUUhfcGtGWTBrTk9fR0tNQk1hTFNKaktJTDA4azNYSWFVVWZwNEM3bVZJdW1FX2phVWNKMC12UTR1ZGs0eTROS1JzOVotREtEZkNPUHB4dUdKOU1PSkVITmx5ZA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Summer Stock Plunge? I'm 99% Convinced A Major Recession Is Coming, Let Me Convince You",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-05-15T14:20:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNHpLMEwwVWRQTTJvWUh1LXZxWnFpdS1EUzJOemFCQWlFNENmeDItc0JnSXV6OFRNUWRlQ3F0b0VPZUNMLTlTcVkzS3ZodlpoOU5IQ3lSZDRrVGNObzNRNTFTQlE4bWhfTE1WdjVZUkplc0tXa0hNSGdKb2ZIdVVPSU5DNXFCaWs2UFRaZl9yQXRRZjA0WVBIS0s3dGZTZ1pBZVIySU44dWFWVC1nWWlsNGFITEV0ZmNlTEdSV2ZzbnpxMjdTSThNTVFCYVQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Global Market Highlights for Next Week: NVIDIA Earnings and Federal Reserve Meeting Minutes to Test US Stock Market",
+      "source": "Moomoo",
+      "publishedAt": "2026-05-16T21:36:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbUZyMnRucGVnaFprd0J1dEc2aHMwNjR5d0Q1bmdVanVLTktCSHdhNUw4WC1lSmVFZFpvcHdKbTI1bzRsUFZLQ1lNb05iT3hqQnNKdUlxTnV6Y01oWHpROXZQUUtBeDlNMVhaeHJJNTRLLVUzMGRSTGVkZmFmeUxOd2lrVUJBVWhCSGtaOVFwbFNSanpYRVZvZ0JOclFyZkRCTWxGcWZLRVc2bTZW?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     }
   ]
