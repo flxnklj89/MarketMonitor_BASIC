@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-23T02:42:28.722901+00:00",
+  "fetchedAt": "2026-05-23T06:31:28.653824+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20639,23 +20639,6 @@
       ]
     },
     {
-      "title": "Consumers Flash Recession Warning as Trump Economy Sentiment Implodes",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-05-22T16:24:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjJtLUtiVUpKVVI4bGx2MnhwRDJoZUVzeHB3cGJHWE0wd3NuYnhBSGtpb1Nob3VLM3dzOWZDTHI3cnF1UUV3Nmd2RUdHRnZpOHVxZXV6emstLWY1X1QtNkJGSi14M0dhSng1Q2N2X2hrejBSaFI2UXN1WmtVSDMwc09TZFNKYzlQUDlWUzV3eTdIRzBVZmVNQWt6Q2d5RU9uX3h0czZfTXNmc1FvdTQySnBlOA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Korea’s Stock Market Is Forecast to Set Fresh Highs",
       "source": "Goldman Sachs",
       "publishedAt": "2026-05-21T08:43:04+00:00",
@@ -20670,6 +20653,23 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Consumers Flash Recession Warning as Trump Economy Sentiment Implodes",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-05-22T16:24:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjJtLUtiVUpKVVI4bGx2MnhwRDJoZUVzeHB3cGJHWE0wd3NuYnhBSGtpb1Nob3VLM3dzOWZDTHI3cnF1UUV3Nmd2RUdHRnZpOHVxZXV6emstLWY1X1QtNkJGSi14M0dhSng1Q2N2X2hrejBSaFI2UXN1WmtVSDMwc09TZFNKYzlQUDlWUzV3eTdIRzBVZmVNQWt6Q2d5RU9uX3h0czZfTXNmc1FvdTQySnBlOA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
