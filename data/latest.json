@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-30T06:43:03.404376+00:00",
+  "fetchedAt": "2026-05-30T09:56:44.029899+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20605,6 +20605,23 @@
       ]
     },
     {
+      "title": "A Stock Market Indicator Flashes a Warning Last Seen in 2007. Warren Buffett Explains Why It Matters.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-30T09:22:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTVRtQ2dNd3FlV3pWZHlKUjFlZDM3S2hGcTMzZkt0MG1qN3BtbzVhNk1nZzRxR0hXQWhWR1M0U2NUNFg5NEdGMW9WdDg2THRJcElCMmlScnNib2o5X0Q5Vk5IWFFNY2pQcXZkNmdFcVkwb2RKdHI1aFBHQWF2YVFEeTYwU0dxd3k1YU4xZDBHQ1hQa1kzN3Q1Qw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Will tensions with Iran and rising oil prices derail the stock market rally?",
       "source": "The Berkshire Eagle",
       "publishedAt": "2026-05-29T21:00:00+00:00",
@@ -20623,44 +20640,27 @@
       ]
     },
     {
+      "title": "Wall Street rides high into June on hopes that the war will soon come to an end. Here's what's ahead",
+      "source": "CNBC",
+      "publishedAt": "2026-05-29T18:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdzEyemdvMTRfM2hld2I4RkJXVHpXMEtsaFdWWTdCQjN0TWJqUnM4TVRvdXhLaVRDUmwxcEdLSEhjeHRuQXNLWTNSY2NCbm5jN29kNFJyOHRtWE10eVkwZUwwTlVzNEZFUUdpOXg0b3lOb1RudUVIU291OFM4UmtTemNwTW8tbXhxQlRwb1Jn?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Dell Earnings Drive Tech Stocks Higher: Stock Market Today",
       "source": "Kiplinger",
       "publishedAt": "2026-05-29T20:05:52+00:00",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTnFiN1hXMHc0QzNJaGM1ZmFVWWdkVEhjWlVFdnpYb2RTLWlBY2NicW94Yk9QeDN1eG5PTVM0SGV6SFBHN0p5ZW9KSVhYaFQ0VWZMamI2NjlFNEFwcDhtempxeFVQUlpIcDU0UWxxS0w1d2ZCV18yc3J5ZGRsU1RLT1RmM3FYUlpaU1RDLUxicDJ5UGJRSWdnZmZZWHlhMUwzX0E?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Why Did CoreWeave (CRWV) Stock Plummet After Earnings",
-      "source": "Kavout",
-      "publishedAt": "2026-05-30T00:07:29+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbm90SFpLa2Uyenl0aFJXemxVQ2FGdTU3dU1JN3llUkphdS1sUjNTU3pNWkVnUXhPSW1nM214TUwwT0NCOEVSeTJBOUg2QXJWOHJQR0tnd3FzcWFkMUp4M1J5Zzl2RXZiVk5WYlVWdXNzQXpSWHJTZl82Q09kQlFLSElLWHBmWHFyWnJudUNqMA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Why Are Stocks So Resilient? Earnings!",
-      "source": "Advisor Perspectives",
-      "publishedAt": "2026-05-29T11:55:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc0tjNUQ0RUpPRXZCZXhJVGVRSVhuSjdQVTFSdTd0MFRIWG16ODZ2dWFCNkg0cnJFVTI5Y2Jic2xZS2NjT2N6VDRaaFNJVUp0MkM2enVEd0JWTXpKaHNQTVlCRTduUndMcGZmNWh4NzFQNE1CSkRFLXZmWDJiUm9aSXZBbVZIMjBkdFVGcFl2cTZBbEQ5aDJhdS1uREFzdUE?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
