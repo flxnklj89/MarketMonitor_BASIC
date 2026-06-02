@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-02T16:16:52.902126+00:00",
+  "fetchedAt": "2026-06-02T22:20:58.033482+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -57,23 +57,23 @@
       "method": "proxy",
       "components": {
         "vix": 0.0,
-        "brent": 102.75,
-        "eurusd": 0.0,
-        "us10y": 4.45
+        "brent": 0.0,
+        "eurusd": 1.1679,
+        "us10y": 4.47
       }
     }
   },
   "globalComposite": {
-    "value": 13.3,
+    "value": 17.7,
     "label": "Stabil",
     "date": "2026-06-02"
   },
   "regions": {
     "europe": {
       "name": "Europa",
-      "score": 8.0,
+      "score": 2.0,
       "label": "Stabil",
-      "date": "2026-06-02",
+      "date": "2026-05-29",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -85,16 +85,16 @@
       },
       "growthOrRate": {
         "label": "ECB Einlagezins",
-        "value": 2.0,
-        "date": "2026-06-02",
+        "value": null,
+        "date": "",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
       },
       "fx": {
         "label": "EUR/USD",
-        "value": null,
-        "date": "",
+        "value": 1.1679,
+        "date": "2026-05-29",
         "unit": "",
         "cadence": "daily",
         "series": "DEXUSEU"
@@ -102,14 +102,14 @@
     },
     "japan": {
       "name": "Japan",
-      "score": 24.0,
-      "label": "Stabil",
-      "date": "2031-01-01",
+      "score": 40.0,
+      "label": "Beobachten",
+      "date": "2026-05-29",
       "summary": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "driverText": "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
       "inflation": {
-        "value": 1.97,
-        "date": "2031-01-01",
+        "value": null,
+        "date": "",
         "unit": "%",
         "cadence": "annual",
         "series": "JPNPCPIPCPPPT"
@@ -124,8 +124,8 @@
       },
       "fx": {
         "label": "JPY pro USD",
-        "value": null,
-        "date": "",
+        "value": 159.23,
+        "date": "2026-05-29",
         "unit": "",
         "cadence": "daily",
         "series": "DEXJPUS"
@@ -133,9 +133,9 @@
     },
     "china": {
       "name": "China",
-      "score": 8.0,
+      "score": 11.0,
       "label": "Stabil",
-      "date": "2025-01-01",
+      "date": "2026-05-29",
       "summary": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "driverText": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
       "inflation": {
@@ -155,8 +155,8 @@
       },
       "fx": {
         "label": "CNY pro USD",
-        "value": null,
-        "date": "",
+        "value": 6.7662,
+        "date": "2026-05-29",
         "unit": "",
         "cadence": "daily",
         "series": "DEXCHUS"
@@ -181,6 +181,24 @@
       "chgPct": 4.77,
       "unit": "",
       "dec": 2
+    },
+    {
+      "label": "BRENT",
+      "icon": "🛢️",
+      "val": 102.75,
+      "chg": -4.15,
+      "chgPct": -3.88,
+      "unit": "USD",
+      "dec": 2
+    },
+    {
+      "label": "EUR/USD",
+      "icon": "💱",
+      "val": 1.1679,
+      "chg": 0.003,
+      "chgPct": 0.26,
+      "unit": "",
+      "dec": 4
     }
   ],
   "history": {
@@ -12900,10 +12918,44 @@
   },
   "news": [
     {
-      "title": "Weekly market commentary",
-      "source": "blackrock.com",
-      "publishedAt": "2026-06-02T10:15:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "title": "Dow Jones Futures: These Sectors Lead Market, Google Tests Support; Palo Alto Jumps Late On Earnings",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-02T21:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQam1qc2dzRThnUjB0cjJzekZjNHJWTktyRlUzanFNdlNJNmJ4NFZzcVB1ZDdaQ25TTjNGMi1KSkw2SGo4UnhmTkFDLVZMN3VqN1Uzb1I5XzJ5LXpRamd6R3dCNkdja1MxSWgzMmk3cHBMVFVRSWhXQWpET2lkT1VYOEgwYWJFMjlRcWFfVERlUXVacTh0UDBKS0cwOVJPaFdRQmh1OGwtTkIwX1hSdVVfU01ZUkNLaGhQUU1GTTJxOGhxUXIxcHdNTnhkMUFobndfWnc?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stock Market Could Crash In June (NYSEARCA:SPY)",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-02T12:13:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJV1dIMUtfQTdBZlhKbl9KWGpjRDdpYjk5SXlSZU1BcDAtUjJjSWJyNTN4T1RGUklEU0FNYVJIcm1MakZia3o5dVNfVEhjbjdMdlNLc2NhSlBuN3pFQXlLR29QMG85UDUyVE5wNmZpMldZTnlQYVRvdUE2OWpVUQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Why Is The US Stock Market Up Today?",
+      "source": "BeInCrypto",
+      "publishedAt": "2026-06-02T19:27:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqYVVwakhpT3BNYlNjUzdKZXE3RjZoc0twRnlaal9oMGs2dG9jNWxLbGl5bF80N05NS3FNLVFzLTQ1NmV6eFZWN2s3RlluZ0k4ZURaR0ZiMDNpNDc4NmUtYU54aGg0dw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -12918,9 +12970,9 @@
     },
     {
       "title": "The Stock Market Will Drop Sharply If History Repeats. Warren Buffett Explains Why.",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-02T08:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSUtoZE9oVGVzbTdLSk1FZ1BTdklTM3V5STV0OWM0VF8wX2s0Z01UaVFVSjhPN1VPS1lLOUJQbFNPQmJydUp2elVEbTBHUDZoUzN3WG5rRV9zblJQaGdyZGFZRnY4aW1TcEJmWm9wc1lhVk5kQjBPMEJOVVFlMDNmZVJlamFpc3VSUWNiM2Q4VXhuMXBiWmZ1cl9ucjJsNjg?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-02T09:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUo3RVB1OEpQLXotbHFzRDdUSkNxS3FYTFRRVHJ6THctb3loY0lDdGt5Tms5WGxNYTdBczFwQ2tJdUhEZ1BIaXhHLWFyQnNZcjQ5RC1DV3pwVktHMXhEQWhaWUIxVmphMFR4UHoyR3Z3U3c2MHlOWEs2U0gxM3prY2dENVBnUDFUb09wX3ZNdFdiOVpGNUE?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -12934,10 +12986,10 @@
       ]
     },
     {
-      "title": "Stock Market Today: Stock Market News And Analysis",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-02T14:36:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
+      "title": "HPE Is Having a Dell-Like Move. But It’s Not Dell.",
+      "source": "Barron's",
+      "publishedAt": "2026-06-02T21:23:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zN2EwVklaUlktR3FDZi1DbXJJUkRxNXFfR0Q5SWRDMWRtUC1GbXNLMW5LUDk2XzJ2SG5rNVFTbUkzcDZUbWlHTjRKa3ZIOE5LOU5EaWh5Q000SEgyZktUTVB4R25lRDFVSHpib1FUbk1nRzYt?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -12965,40 +13017,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Wall Street’s record-breaking rally slows as Alphabet drags on the market",
-      "source": "AP News",
-      "publishedAt": "2026-06-02T14:18:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRUgtMzUtb3E5V2g5QnZDcktfa0lLV0VuNXduUlVmRXhwWEd0T3ZsS0Z4NkJCb2Z2amFtV0I2RUxTSjJia0RSRVhwdmY3WUhEWi1VN29JMGtvb2xzVzBxMWpOdU54Tk5LTlNyYzEyTlBab1ZWQkZycVZjSllmeGtPdGxfVzYwVXBNRTVCTHIwS0ZCcnR5YWRiT0RVMHI?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock market hits highs on Iran deal hopes; Dell, NetApp, Okta lead earnings winners: Weekly review",
-      "source": "MSN",
-      "publishedAt": "2026-06-02T14:42:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS19faGhZak9OQVo2U3ZrOEUtd1luUW9weXBPRUFnLVBGV2pvQUNmM2UzTUhYQVdaWUhJcnRmSGJROUUtQXlFNlpmN3ZxVXFONVAzbHRkdDd2SkN6Tlc1ajJxXzdySnItc1BEMXRLU2FEMm5JWUp6ME9WbE9QRHI4TkRwdEhsYmk1aHIyXzNzTzZ6TmotSktsbWR6TFM1aXdVOGRoYldaODhXNENSM21GWkZXSnV2MWcwQ1ZTaUNIV1d4ZllabXFJYW83SVZQeFNHMXZET0hadzE0TmMxdlZEbQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
