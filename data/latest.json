@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-07T10:26:08.372636+00:00",
+  "fetchedAt": "2026-06-07T13:45:40.923777+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20574,6 +20574,23 @@
   },
   "news": [
     {
+      "title": "The New York Stock Exchange | NYSE",
+      "source": "NYSE",
+      "publishedAt": "2026-06-05T22:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Comments on a Freaky Friday",
       "source": "Paul Krugman | Substack",
       "publishedAt": "2026-06-06T13:14:25+00:00",
@@ -20606,23 +20623,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Week Ahead: SpaceX And The Power Trend",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-06T13:39:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc0pWT0g4cklnN0JaWC16Y2Uwb0ozY2lmVDB6UlotNVdzSklMc0RfNnktMVo1bHdBamFkQUd6R0xjczlPS245MUo3WEc1RDg5UG1vU3hZMTU2SnllM1EzR1dzT2xyRklxZUc2TXRwb1JueEE5M1FnUi1zSk5UWVZnTGl4eHNvR21RM1dwNXQxaGU4OGNkbnhDMlRxcTcxcWZGUEhMSjFhelAyQnc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
