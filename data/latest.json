@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-08T18:23:04.967765+00:00",
+  "fetchedAt": "2026-06-08T21:47:40.253308+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -50,16 +50,16 @@
       "series": "UMCSENT"
     },
     "tradeStress": {
-      "value": 34,
-      "label": "Entspannt",
+      "value": 37,
+      "label": "Erhöht",
       "date": "2026-06-05",
       "cadence": "daily",
       "method": "proxy",
       "components": {
         "vix": 21.51,
         "brent": 98.29,
-        "eurusd": 1.1679,
-        "us10y": 4.47
+        "eurusd": 1.1533,
+        "us10y": 4.55
       }
     }
   },
@@ -93,8 +93,8 @@
       },
       "fx": {
         "label": "EUR/USD",
-        "value": 1.1679,
-        "date": "2026-05-29",
+        "value": 1.1533,
+        "date": "2026-06-05",
         "unit": "",
         "cadence": "daily",
         "series": "DEXUSEU"
@@ -124,8 +124,8 @@
       },
       "fx": {
         "label": "JPY pro USD",
-        "value": 159.23,
-        "date": "2026-05-29",
+        "value": 160.26,
+        "date": "2026-06-05",
         "unit": "",
         "cadence": "daily",
         "series": "DEXJPUS"
@@ -155,8 +155,8 @@
       },
       "fx": {
         "label": "CNY pro USD",
-        "value": 6.7662,
-        "date": "2026-05-29",
+        "value": 6.7655,
+        "date": "2026-06-05",
         "unit": "",
         "cadence": "daily",
         "series": "DEXCHUS"
@@ -194,18 +194,18 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.47,
-      "chg": -0.02,
-      "chgPct": -0.45,
+      "val": 4.55,
+      "chg": 0.08,
+      "chgPct": 1.79,
       "unit": "%",
       "dec": 2
     },
     {
       "label": "EUR/USD",
       "icon": "💱",
-      "val": 1.1679,
-      "chg": 0.003,
-      "chgPct": 0.26,
+      "val": 1.1533,
+      "chg": -0.0096,
+      "chgPct": -0.83,
       "unit": "",
       "dec": 4
     }
@@ -20568,7 +20568,7 @@
       },
       {
         "date": "2026-06-05",
-        "value": 34
+        "value": 37
       }
     ]
   },
@@ -20608,6 +20608,23 @@
       ]
     },
     {
+      "title": "5 Stocks to Buy Before the Next Market Rotation",
+      "source": "Morningstar",
+      "publishedAt": "2026-06-08T19:34:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ2VZd3FGdm9iWWp2TW16Z1pHd0xEX3FHcnJBaFU3QmZaNFhvOUtsOEpFaWd2d1VRQjhRMk54ZkhSR0I1VG1ZZVR2dnloTTRGd0wwNDd2TXM1TXl5RkFRcXY5OEVzVGlEU0F1d0o2Sjc3SEpDck5CUVRiQUp3X0Zlbg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "5 Things to Know Before the Stock Market Opens",
       "source": "Investopedia",
       "publishedAt": "2026-06-08T12:29:17+00:00",
@@ -20627,7 +20644,7 @@
     {
       "title": "Stock Market Today: Stock Market News And Analysis",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-08T14:40:00+00:00",
+      "publishedAt": "2026-06-08T15:55:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20642,10 +20659,10 @@
       ]
     },
     {
-      "title": "The Stock Market Just Got Crushed. Why Citi Is Raising Its S&P 500 Target.",
-      "source": "Barron's",
-      "publishedAt": "2026-06-08T16:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX3N4MExtWW5tZHAtc0c3UEJLQm9DcW0tQ2hiX3duR0RvNHJueEN1N2poLXJIYy1sVlA1NlB6WDlHUEluZDhQQ1dlNExQTm8zNERsYzdZeWVMdFRhckpOVjZST0ZjNFE5bHVIOGJUNkV2bGxLUEQ0UGZ6eUpuY3l6TXFpNzk0S1BMRWlEeVJtZ3g?oc=5",
+      "title": "‘Yet another way in which 2026 is looking like 1999’: Top analyst fears bubble popping with investors and Wall Street out over their skis",
+      "source": "Fortune",
+      "publishedAt": "2026-06-08T06:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWGlZVVJFejFVcEd5RktydDg4QUI0U1RVSjZzTXdQdFJDTU5WQ1c3bGVIZkV2bUR4d194YXotMVBKbXk0MzBXT1V4aWFYOGxfWURGS29NS2JnSVNDNjhoV0F4NmFsdkpHY1M5aG9QVDFoN1NDWXB4WkFkVVVKalBVOTZuZ2tRazVEMk5WdDFVQ3ptSW1kVFpUaWUzMA?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20656,23 +20673,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Why Do Stocks Drop Even After Beating Earnings",
-      "source": "Kavout",
-      "publishedAt": "2026-06-08T10:51:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNamRKd3VacWlCUUVUbWp3LTgwaDl5LUhjRXN4Rm95dTZmaFdlS2Rpby1jb3R2OHNlYmt6ZEsyUUNueU5oYVo5UW1SeFhmSzJYektra1RET1hHVlY5RnVsVHExR3YxNVhHdGxEQlpRTmtxaTFCTW15TzZPc0NCaDk4YnVweXZRUFZ2?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
