@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-10T15:25:38.762520+00:00",
+  "fetchedAt": "2026-06-10T18:28:10.545130+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -57,7 +57,7 @@
       "method": "proxy",
       "components": {
         "vix": 19.87,
-        "brent": 98.29,
+        "brent": 97.46,
         "eurusd": 1.1533,
         "us10y": 4.56
       }
@@ -185,9 +185,9 @@
     {
       "label": "BRENT",
       "icon": "🛢️",
-      "val": 98.29,
-      "chg": 5.41,
-      "chgPct": 5.82,
+      "val": 97.46,
+      "chg": 0.17,
+      "chgPct": 0.17,
       "unit": "USD",
       "dec": 2
     },
@@ -20556,7 +20556,7 @@
       },
       {
         "date": "2026-06-03",
-        "value": 27
+        "value": 34
       },
       {
         "date": "2026-06-04",
@@ -20577,6 +20577,41 @@
     ]
   },
   "news": [
+    {
+      "title": "Get Ready for the Stock Market’s Volatile Summer",
+      "source": "Barron's",
+      "publishedAt": "2026-06-10T17:42:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOVM3M3F0YlBEalJlQWV0SnEtdnBpd1BxZjhVak5HRXBlMXhHRllGMUVFYW1fZ1JtSmFYMm1zMXVzOGFxeWV5Z1cxNnVlRUdQTkYwUUd1b0ZBRmN0bkJBZWRoQl9EVFRpa3lyNXFmNFRpNDNxYUprYUlJbVRYdlFqRjBTUTVudGh6YXJ3Wnc4Ui1FS0NST095cQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Trump says \"I love the inflation\" because U.S. is \"taking\" Iranian oil",
+      "source": "CBS News",
+      "publishedAt": "2026-06-10T17:26:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0dmQxOXl5S2VYT0pkeUlvclB3OUxjQzhhNmJJNXoxMFZPTGVFQ210bi0xOTRHWHlpMEt3dlYwVjc4aEVyMV9mSHVyQXdSMTViTnJkNWRXX2Q4d1FrU0N3aEtXaTZXdGc1Y2dHbEgxYW92WG8?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
     {
       "title": "The Federal Reserve Just Delivered Really Bad News for Republicans Heading Into the Midterms",
       "source": "24/7 Wall St.",
@@ -20632,10 +20667,10 @@
       ]
     },
     {
-      "title": "Stocks Fall on US Inflation Fears, Oil Up on Mideast Peace Risks",
-      "source": "Asia Financial",
-      "publishedAt": "2026-06-10T14:50:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeWl6WEd2RVZMVnIyLXNtTnVkdlZPb0g2YmZxOXdXZEgtYnJkZDBkVFRWbV8zelM0WGxJMDNDckhnd3J2dU03b25ZUTBKaGd5NExxWEp5N3dJYjd3OXFjbmQ5Z1M3Mi1ZUUI5UDNDZWYzYlQ3TEZXSjdXQUZ5V2N2dDNValE2c1N3U1lTUWRUbHloQVJzR2luNg?oc=5",
+      "title": "Global stock index down after data, oil rises after Iran-US strikes",
+      "source": "Reuters",
+      "publishedAt": "2026-06-10T01:28:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMzdFYTBQUjA3YzBlRWNHdUp6OXBpbVlabUYwVWJXYzlJa0pHWTVuZ2M4YXlSeEtXZHJDMUotQUdUaXotdklnOXM5R0VEX3QwWVAybFdMSE1hQktPcU9Lc1czUjR0dlRwY1pvZFZDTndsUWRHWHhWOVhiVWs4SFdsVHdUcw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20647,41 +20682,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Nasdaq Falls 0.9%, Dow Jones Gains +0.1%, Oil price down 2.87%",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-06-09T21:53:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSWdhaVFGSFVSZ2gxY21FVnM0MDgyXzF0am9iYlRZOTVCYnFqNWp4aWdDUUJ2NVRLNmF6Y0ppdkRQa1I0cHpVVkdSeVVKRVRYSFcxWlZ3MzlxVVV4aTJvR3RIN2pSbWdLSE1uSUh3eTZrYUNwX3dFaWw2QnVzRVlWVngtS2M2TXh2RE50T29XUnAxdGhtVEZ3SEtFTzNUd01POU5iT3BkbmJncXJVdkw3NVllVTZLYXRUU19F?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Why is China Dongxiang stock sliding today?",
-      "source": "Investing.com",
-      "publishedAt": "2026-06-10T06:52:53+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNkVJOEh5NHNldS1GUUhZT0VSRG9nYzJJcldKTGFyTndYMHhkYnVNODZPT3FKTXVZYmlRN2U5QTVsb1F2MFM0b0Vvb3B4cE0zdTc2dWswbFNlVDEwSFVBcHVvd2JvRThDanJCTXFhWl9Tb0xOeng2a1ZDd1ZPYVFOM1NCX1liNkpaWmotb1phX2ZUOTNLS0NIOFpSbTlqa0l3M0ZwOHdPYw?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ]
