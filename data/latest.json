@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-12T02:25:24.036256+00:00",
+  "fetchedAt": "2026-07-12T06:29:32.017173+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20574,26 +20574,9 @@
   },
   "news": [
     {
-      "title": "The U.S. stock market is becoming ‘too big to fail’",
-      "source": "MarketWatch",
-      "publishedAt": "2026-07-11T15:47:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0w4WVRxd0RGY3Nva0ROSXBWemZBT3A0VnNTcWctd291VUw3MVBqeDh0Uk93c25jbTJ1Z3YzLUMxdER3UHpySm1pTHZkQ2haZm80aWVSMkRWOV84MTJlcXh0bVJBbnhUY0JMZHdJS19wTmt4d2RBMkdjRzlHaEh4UktETkdQLXJKU0JzTDNEWmF0ZG80eUE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures: Market Ready To Go? Nvidia, Micron, Sandisk Near Buy Points With Big Earnings Due",
+      "title": "Market Ready To Go? 5 Stocks Near Buy Points; Big Earnings Loom",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-11T23:42:00+00:00",
+      "publishedAt": "2026-07-12T03:08:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNelVxeE1aOEEwd2hrc1RQazVvMWFNampFVXdNeUtFQmlnMS12empNVTZ1NEZGNDA1Q2I1U1RBeGYweWZaWE5JbFE5Sy02YnI2a3NyRjZwQ3VXNDNVeHFoWEVUbEZNRk40V2NJWVRYekVBZGNFWnRtbHBuRHJvU0d6SkQ5RlhHV1p6NS04SzRfUWtFVlNqTXJraWYwUzRvaUVsWGdiYmVneWtQUVliMnBkeHJWV0tKLXF3U256REFrTlJad3NtUy1FZjk5OXhCeXNYSDljbFRneEc2OU0?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -20608,21 +20591,20 @@
       ]
     },
     {
-      "title": "Oil prices and the stock market: Do energy prices move markets?",
-      "source": "Chase Bank",
-      "publishedAt": "2026-07-10T18:34:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWXZQSmFjTUctRmZpVjUyc3BzMXhXV3loX1JTcTZrVG1YMTRmaTNzeWMzcmM3RjVCeEFZZWc4SEpyVkJSZkpBSmtuVDYzT01STkwtSnd4NUtXXzg5VlZFXzZkUEFHWDZoRHZfR1I1R1pRbEg5RU80OHV2X1hyX3ZzUzhvcVItc1dzM1hxRjJBdkREY0UzaFhvRlVVdTFMcXh2b05CWkRXRzN3dHdDWTlTT2ItVnFEMFpRODFBX2tfMEltNUVQWFo4WF9CSWZaT2c?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "The U.S. stock market is becoming ‘too big to fail’",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-11T15:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0w4WVRxd0RGY3Nva0ROSXBWemZBT3A0VnNTcWctd291VUw3MVBqeDh0Uk93c25jbTJ1Z3YzLUMxdER3UHpySm1pTHZkQ2haZm80aWVSMkRWOV84MTJlcXh0bVJBbnhUY0JMZHdJS19wTmt4d2RBMkdjRzlHaEh4UktETkdQLXJKU0JzTDNEWmF0ZG80eUE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20664,6 +20646,24 @@
       "source": "simplywall.st",
       "publishedAt": "2026-07-11T23:30:18+00:00",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRUx1UHgwVkc5bFNNUkRoSTlCOXBjZmlQV2lJcFQ2OWhTMlVxMEF6Nk1MNDNZYjJHNi14ZEZYSWVsVmF1Vmw3U24xR1JhNWNQUUxCWlExZE90VUowSWJTX3lwTUlkeGVncWJRSDlGNHVRVE9jRlhZckFYMXc5UFdjUW5zUFVUeVpzN1FWRHFUQnNGQ2traFVOZ0pWMDJScWtBNUdxU0lRWlRISkxRejNHRWdWNGEzUkEwZUdMekN3QnPSAcYBQVVfeXFMT0JEUDhSek16S2hpaVhTUUtlY3lSVUl4UVRHajR6ekdOeDVwbjFNUGRMc2pvWXY2SXFxTm5JMDVYcGQ3emxQTG5wYVJnUXREcFExdERfZG1nQVJpYkE5eFlqbGZMbDlSd29wSkFJM193NTRvZ3VtTFpSZGZPYW5NS2ViOEE5YkxtVkkwdHB4SXc3ZHRUQWI3OXFjc0ZnU05OU3lVQ0h3RGFpeHhBcTVDOXg2Ujg5OF9wZ081ZjBUQkt3QzgydVZn?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Earnings Season, Walsh, and U.S. Inflation—Where Are the Federal Reserve and Markets Headed? Next Week Brings the First Clues!",
+      "source": "Bitget",
+      "publishedAt": "2026-07-12T02:22:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90ZDBrQXZBbUt0RWNwQ3R6Q2s5Y2M1US1qY3BhWVVETXZ0cXhJTHc0MnRKeG1zZG9yVzA3MXFYYnlGZU9sQ0JZTWlKV3pJeVJ4X0lJempHeVFzVEVRS1JMaEkwc9IBY0FVX3lxTE90ZDBrQXZBbUt0RWNwQ3R6Q2s5Y2M1US1qY3BhWVVETXZ0cXhJTHc0MnRKeG1zZG9yVzA3MXFYYnlGZU9sQ0JZTWlKV3pJeVJ4X0lJempHeVFzVEVRS1JMaEkwcw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
