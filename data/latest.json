@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-28T13:56:40.713942+00:00",
+  "fetchedAt": "2026-07-28T17:23:16.172182+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20558,10 +20558,10 @@
   },
   "news": [
     {
-      "title": "Where the US Stock Market May Be Heading Next and What to Buy Now",
-      "source": "Morningstar",
-      "publishedAt": "2026-07-28T06:26:57+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDBYRXR4TFFoQzdnQ0ZieFctRk9aNGlGczZuMFNlUm02YTB1ZDhhWDlSM0pRS3JrekVWckZQRnFKcnRGeGl2aFpCVGd6ZldHMkNXTWpHd09UMDVGaUx1d3ZPX2lzWmREOGttM0x4Z3ZFcXN4NnZtd1c5QUdIelQ4d2taWDFQcFRpUktiejlnNG56Qk9jekNTcVBBZks?oc=5",
+      "title": "Stock market today: Nasdaq pares losses as chip stocks sell off, S&P 500 and Dow rise",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-28T15:01:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWDRBVjhSNWg2TGl3T1NMcWh5aVk4UzIxVEVOb3ZLZ0tST1NHM244Q2h1VlM3aXRRYkVUOTBBOUNXYWg1SmxZME5XUXA1MDQ0ZWZzS2hhamltUkNkeHRTZzNkRjQ0UTN5NWQ3MVp0S0syZ0tmOGNXNi1abFAxMmszb2ZyQWc3NXltMUM4WE1IQV9aUS1zckFIN2pKdmdjUVZDUkN2UTNTcDFqS3N0Y2pKQmtJYzRNcE50VWc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20592,10 +20592,28 @@
       ]
     },
     {
-      "title": "Stock market today: S&P 500, Nasdaq futures slide as chip sell-off deepens",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-28T09:00:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMkZsQXlQVWtDVFpoZFFSUndsZzdOUTk4U2FUS3BlZ2NWZ3pVczhfcTBZbTJqZzEyRXVIdlhJZ2o3SGNqUnl2anRJTjlBTmpNRDg2clIzeVpSV2pBWTVRWGZzdkVSaUIyWHpNQm9mWVFTMm1fcjBCT1lYTFoyWXJkRGRsMG8zaVNMYWdnb0hBOGJIMDAzUVVETjBRT2dteWZ6YVVldUw5VHprdw?oc=5",
+      "title": "Wall Street's flip from AI stocks to elsewhere accelerates, while oil prices keep easing",
+      "source": "Chattanooga Times Free Press",
+      "publishedAt": "2026-07-28T17:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNEhtWk0tVHJ0NmZnWHg4eXNvbTgySF9Rbk5WWW9kQWM5Z0w1MVduaEt3dnpUOTN3NlduMk5zeTRqTWJvbE82OUFldEdXSXNxcF9XNHlocmszYVc2V0dYRWdHRUx1OC1Ccl9ILXFXYTlpeVM0emdnOENLQUh5bW9QNEN6Vk1tTUs5bWdQNjd2UUFwTFhNdUdpb3pvSV91YUE0ZWZ5dlVaQ2JVMHJxbXNSVHJiZzdCeWYtemVCLS1rMjg2VmxZVm5rZzE2QS1mRkpvbEpmS1hB?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Where the US Stock Market May Be Heading Next and What to Buy Now",
+      "source": "Morningstar",
+      "publishedAt": "2026-07-28T06:26:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDBYRXR4TFFoQzdnQ0ZieFctRk9aNGlGczZuMFNlUm02YTB1ZDhhWDlSM0pRS3JrekVWckZQRnFKcnRGeGl2aFpCVGd6ZldHMkNXTWpHd09UMDVGaUx1d3ZPX2lzWmREOGttM0x4Z3ZFcXN4NnZtd1c5QUdIelQ4d2taWDFQcFRpUktiejlnNG56Qk9jekNTcVBBZks?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20606,23 +20624,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "China Wants AI Independence. Its Market Says Otherwise.",
-      "source": "WSJ",
-      "publishedAt": "2026-07-28T10:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnJLelg2NjYydUhuWkRIaUQwODBOc3BqR09uN2pyUFBFQU9fVmkwZWNPcTBrLUlUaGdxX3Vhc1l6b2NzcUFSVnVnSm5IM0FhMmVSd2JKRERfeU1MdGp5R01MZXFfSmZwcktlRlNib0ViVkpnS3lmR3BFVDZ0c201a1lHbG5NcGZTWTNGdWxXWnNKVWxURl9KeDV3?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     },
     {
@@ -20644,21 +20645,20 @@
       ]
     },
     {
-      "title": "Opinion: Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
-      "source": "MarketWatch",
-      "publishedAt": "2026-07-28T12:15:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYmNWLXMyNDFfMHRWZUV5NndPVno4UzBxak42WUJVcUF1WUVITjF3X0U5NGdKVDZidGVyVXFrVXhZZjZjNk5rN2I5dlNFQV8zaU9tUFczTHU3aGpJZThRZnd2Ny1DZjZ2S29IX1FIdnNSbTBiOWo4QVB3SVlxRVR0alhNN2ZaUnp2S2NWa0lUOTJrWUU0WXRUUDNkN1RFdE5UUUJtazF4cnlTdGlQNnd3VlhLQzdFMm9ESmtIVTRoa25HcGVk?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Earnings Heat Up Amid Conflicting US-Iran Comments: 8 Key Items Shaping the Stock Market Tuesday",
+      "source": "TheStreet Pro",
+      "publishedAt": "2026-07-28T12:56:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYW1YRHVGTzFfczN5OGFjMkNLOUJNUG1CbWZvOTBMQTM0eXN6MkVVUEdvVTdpeVhKLVluWEJweGY1Z1dhMnppRm5qYTJTZ0hHa0FlSFN1eWVCdExXVkNqUXdxRzVJWGw5cTU5ekJ0MUFteU1vVDBlRmFZbGoybVRQTFgycjNPVldBVUJqYXVPaVc4eEdzX2pRUEVaY1NFWHlCZkYtRnlRdHFIWE14N09LdHhmc1FNQXFrYWJsbDkyQVc0dTI3eUNGX2w3UQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
