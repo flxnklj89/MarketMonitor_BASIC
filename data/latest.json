@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-01T06:24:55.862826+00:00",
+  "fetchedAt": "2026-08-01T09:54:28.340632+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20587,10 +20587,27 @@
       ]
     },
     {
-      "title": "Wall St Week Ahead Teetering US stock market faces jobs report, big earnings week",
-      "source": "Reuters",
-      "publishedAt": "2026-07-31T10:02:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONXJVQnRLbDN6Q1ZZdnVtaFMzYXIxM2RlT214dFlNMkdlWDYwSWt2cjBoQzBlME9CbFVPcVhDRzk3YnNMak5xeVVYX0NwR2NFazJQR3pKaTl5NlBfTTVDWHAwNGg1QWxIYzJ2UGJ5cUxBUm5yOThySUZmcS1xRXF5MkxNMVRVVUtQX19sZXY5bmVjam5sbFVYYnpxOTJ5WjJZckxXdnd0R2Y5UFIydzFWWGZaczdwVVZVN1AyU2pQLV9jcFU?oc=5",
+      "title": "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This.",
+      "source": "finance.yahoo.com",
+      "publishedAt": "2026-08-01T06:50:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMXk5VURTcE9pTW9pVWxEZXk1aEs3NlNTUlB5UmVsZEJmQmllM0Z5eEwyVmdSZFFlcUlfNHViaHdTOWFTUkctR05sVnBPX3VuRW1uaWlxczZIbmxrR0xoeUhTOGE3cDh3TUo0Ym5Za3lCUDNFa1RrZmlWX2RHY051OHVMOFpEbm5CZWhyNDZNZFZGVnNRMVVvZkxLVnZrdw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Wall Street week ahead: monthly jobs report, McDonald's and SpaceX earnings",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-08-01T08:00:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdHVQVE9ZQkNtZXdlcVZYSWhCMWFNQWRtLTRlOVZ1blY2WGhIeVMydS0yX2wxVjFhWnkyaVp4TVR6TzQzQzg2UFBvTVlmMTNGNmxhb3c5STRodGs4UnhGTVRzeHAxd1JydnFYenQ5WFc5ejZyZ2FYWElaNXN3UUxVMW15bVZ5M1hPSVI4WUNKOWVndlF0R2ZjSU1xZzVQRnkyRXdDaWxTNGxEWXpxTm5sX29abEwxQV9OY0NHcVNYOUQyb1M4YnVhWHJsaC1QN0Q1Q29vNjZ4X25kYUl2WGlvc3YyaFFmbnlVWGpVZHpldDE0Zm5hR0gzLUoxRmpIeHdVT2c?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20622,7 +20639,7 @@
     },
     {
       "title": "Japan’s stock market is facing these 3 hurdles in August",
-      "source": "Investing.com",
+      "source": "investing.com",
       "publishedAt": "2026-08-01T01:01:06+00:00",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSmRiNGJHckxZT1dEeEt2WjJlbzdDV2piMjZIR0xzSnpwalZLeVVVcHFCc2JkckEtYW1iQlMyZXRRRHg0TlV1MHMwNnpTTkxwaGRKRlI2dktxOF9hUFZFU1h2NmpHaElRYU5rYXhabzdIeldaT2RMSGg2N0VxT1pXR19jbmk0dHRoQzc4WXc3dHhJb3c0cE12YmNxS1k3bzdObFhOYV9uejJ0dTRrYVhzZ3hn?oc=5",
       "bucket": "Globales Wachstum",
@@ -20653,23 +20670,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "SpaceX stock hits new closing low in rocky week ahead of earnings",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-31T20:11:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWVdaMGswaFpSZ0d6b3BacnY4TlQ5TkktR3JwUTRYckFKb2Y3QzR5cnJYdmxJdFVXZXNFbzVYUVhfbV9fREF6cGJDMWZXdy1WVmF4ejlVd3JiVGRSLVdzOTVPSzlreVRtMEFoY1JoS0FNWXI5QzloVWUyNTIxdXIwNFNMTkJBOTFhVF9TR0ptdlFHTU9JYTdTbURKcThnNFFnS0JOdm5fWktFZWZLMmRJLXNuU19DY21OSW80Q0w5cVFhQmxzem9TLQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
