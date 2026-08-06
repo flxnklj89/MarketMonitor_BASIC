@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T02:11:19.294164+00:00",
+  "fetchedAt": "2026-08-06T06:25:41.179920+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20562,6 +20562,23 @@
   },
   "news": [
     {
+      "title": "Dow makes history again, as strong earnings could keep stocks climbing, analyst says",
+      "source": "WNWO",
+      "publishedAt": "2026-08-06T02:00:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOV04zeXhOUTUwMUo5UERlVVRsa0NteU5kTnNDZE1EcmRTNk5TWHZXU05FMEZUMDZyd3VscXNtZi11LWJxRHhxYTF3TVBwM3N6aXVwQllOYndzMEFfajk5bDdBVV91OUYxU1NTMllhOWR5YnRocUhrOThHTC1FSEUtOWZwdlhCZllhU0pRLTFMb2hVRmNPYU04N1N1Tkh4WmtWcWpaeGRuZFhLUXBzU3pyUkRjU2hfQnJNM1EybldkVG5fcl9zNkhjVDF5WmlIXzJ2ZkRUWTRSRQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "What the Stock Market’s Record Rally Has to Do With Rescuing the Yen",
       "source": "The New York Times",
       "publishedAt": "2026-08-05T16:07:49+00:00",
@@ -20576,23 +20593,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Analysis-US stock market could ride earnings strength to more gains after S&P 500 hits record",
-      "source": "whbl.com",
-      "publishedAt": "2026-08-05T17:09:55+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ0FNbDA4REJSLXUyUlgtZ1BpUWpzbjlvcXFQaHZjZXVIR1g4NlBpVDcyaGx1Z1h2OXhMYjJ0Zngtd05CWGFMblBOVU1yaU1pdjRDLTFiM0VqdGVFck9YaWNlaE52YVJjOEEtYjhxWkozWTVOQk1ZWEc4UkpwOW8yd0NiaHFLMWdsSWxuWFNTNFpiY0wtSGJPMUItMHItVkpMdHRKeHFfa0FCUDNCampYVHhQaExEd1lCZThWTUhB?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     },
     {
@@ -20613,25 +20613,8 @@
       ]
     },
     {
-      "title": "Dow makes history again, as strong earnings could keep stocks climbing, analyst says",
-      "source": "kmph.com",
-      "publishedAt": "2026-08-05T22:57:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVGczRUFTQWswamdkc1BJQmpKc2FZSmhVbTBwU041UW51SU5QeFRyaGQ5dnhya2RiYnVZd2I0dnNTdTZPZ1dYRlduN0phcFd1a08yTkZwWVc1VHJyZmZ1bXNpVUtEQWhWR29TemxFeGM5ZjhLbzBUQ3IxdzhpMW1MV1FUb2FQLTF6UlpCNzlXamw0Tzl5b1pXMVd1V2V1c0RFQXR6ckNOQXAwdmxlZUVUZnRxU3djUGxw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
       "title": "Investment strategist details the market’s ‘earnings-driven rally’",
-      "source": "Fox Business",
+      "source": "foxbusiness.com",
       "publishedAt": "2026-08-05T22:33:27+00:00",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RWmpjdWRhZnlOYVhDcTBoV0RpX0w0X08wbWdRSHAxM25PNWV3V1VzWEtwTmVUT0xQbzdYM2ZhSVdaclZadGFZY01sdzh6ZG15eWM4QnVLZE5tWDg?oc=5",
       "bucket": "Zinsen / Inflation",
@@ -20648,20 +20631,37 @@
       ]
     },
     {
-      "title": "Asian Stocks Set for Declines as AI Rally Cools: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-06T01:58:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPalBZaVhYZzF6cHlBTkI0ZEwyT012aU5LdUx5ZU1QRWRtTWsxam41QkJEWkZtNG5QYW1LRU1URzZpX25RZ0FrQkM4bjdfZnFxREFRWk9BLWZaSEpxT3FGVU9RV2RPZzlmQ1BPR2Q1QllNeVNsMF9kOVhnOHBIX2ZXcG9ZU3VhV3dXck1ZVGFyeGtpdDBL?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Why Uber Stock Is Sliding After Earnings Report, Robotaxi Update",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-05T15:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZWw4R09rT0ZFYTBrcWhDM1JNY3d6WWpXVW5tYV9UcGFaSEdpWnZnbHdSSjVYRDlsYTI4X2hkbFpqaHFsVlVlS19pWi1TQy1fQ25ab2lQZzFUMWVtQjhzVVhtNzFTblBicHF3WXdMS1lnTFlnZUplRkFja200bm4tQlR0LWNDQQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US stock market could ride earnings strength to more gains after S&P 500 hits record",
+      "source": "marketscreener.com",
+      "publishedAt": "2026-08-05T16:28:24+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEpHZXVBSzQxMC1tMWwxWmZTMk9KbUlhSnh0YmdvZk91d2lJZkpTSG1YMWpzeXNpeDVHUVV4MnpVdk05Y0JIcDFhRWgwMTEteWNXWXVaejYwUVd6RWtuZjlvUGpmemQ5TkV2bm5DU1lNM3dWVk9MZ29mV0MzMi1EVjdlN0oxVnh3UlYyazJnQlk0REJjSHN1NHE5Y1lkTVNaUko0T0RpSGt3NDlfT3RXUzMtTVVzbk5OUWFUbFA3aDB3enpFMHJjcmlFZUVfREpNYThj?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
