@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T00:59:36.010903+00:00",
+  "fetchedAt": "2026-08-18T04:31:05.946443+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20586,8 +20586,26 @@
     {
       "title": "U.S. stocks edge further from their record after oil prices rise",
       "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-08-17T23:09:37+00:00",
+      "publishedAt": "2026-08-18T01:45:10+00:00",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ1VzSFk2NHJueHhwUGM5NGtuMXFXU2NXbDAyYXNKUmQ4T05FT2pJQ3FQSC1FZlBNdFR1czFUZnAtVTZiT1o2SG1vWEdrY2lnMk9JOU93WGVQNnZqOXpBcnJQR292RF9XbE90a19uWURicWE5LWgtakpYR3pNMi1ySXhaemdRRHFERWY3SU9QaFphajZPUWxxUjNJVW9TNF9MYXpFQktzRHJ5NHppU1E?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Asia shares decline as worries about rising oil prices outweigh perks from strong earnings",
+      "source": "bozemandailychronicle.com",
+      "publishedAt": "2026-08-18T03:19:53+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOMUxRa2lhbEs5VVpUQzBKT0tBMlNkeDU1ZVZaN09XMWJsT2pGM0ZaVmhJQWtfZkdtOE1MdGpaNWxkWXR3MGw4MnlBY3BkVEhyYXJSZGZFdy1vV20tSnctT09TYjMwM2VTYzFDUVBJdFhlb19yRjVMdHFDX3pSNllEbEJBQmp4RkhCV0Nyd0JxZUxQcjNYNTRhbFN4RjZSVlVDYlA4Vzh4LTFVRkVhM1B0clRMWmw4bDlpSlBqZmVHbklUMGZBQnAxamtyQkFkX3BpdlFXUnNEWFNia3lGSHBCVEdZRXd0M0JzcGwzdVlMQnRyWnpRNF8wLW55Y2VFekljRXVHLWVJTU1tU3Y1WTFXMkNjMFhOcUVHdFVSWg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20639,26 +20657,8 @@
     {
       "title": "US stocks edge further from their record after oil prices rise",
       "source": "WDEF",
-      "publishedAt": "2026-08-17T20:26:23+00:00",
+      "publishedAt": "2026-08-17T20:53:24+00:00",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaS1uR3ZOczlWMDJlNE1CNDBFQU93Q3ZFa3BWT2NoeDRpSEYzbVRvU1FQSkppY1RoVGdoandwY2RjWVd6Q1FWZHFOeG4zOHV2OEg5b3BCVGI5bW9vVW9iVk1qNlJtRFRfZTA2ZEdueDY1TXhSSnAxSnFVZGpSS251aldVaEJKOTE4eFhQYQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks Fall, Oil Gains on Middle East Uncertainty: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-17T22:07:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYjMzSnppazFUSjZTRDU3TFJ2cmloZXpfdTI5U2h5Q2xlb2k3YnBGUlQybmRqSmlWclo4Z3JJdmt3bHUtTVoydV9MbUdvTkhFQ2dWRUVReHNmZ3pMVXR2akl0SW9weWt6UnQtdHl5dWZLYUtMc0JIaGI4WGxGR0VDdEFOd0NBa3g0TVY0YUxMbjN1NDFx?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
