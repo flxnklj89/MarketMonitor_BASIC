@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-04T18:46:54.897678+00:00",
+  "fetchedAt": "2026-09-04T22:03:45.501816+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -59,7 +59,7 @@
         "vix": 14.32,
         "brent": 96.02,
         "eurusd": 1.1598,
-        "us10y": 4.79
+        "us10y": 4.77
       }
     }
   },
@@ -194,9 +194,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.79,
-      "chg": 0.0,
-      "chgPct": 0.0,
+      "val": 4.77,
+      "chg": -0.02,
+      "chgPct": -0.42,
       "unit": "%",
       "dec": 2
     },
@@ -20562,6 +20562,41 @@
   },
   "news": [
     {
+      "title": "Stock Market Today, Sept. 4: Planet Labs Dips 1% Despite Earnings Beat, Full-Year Guidance Raise",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-04T21:48:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZ25yejVhRXlvM2VOWjVlV2xqcDlLM2t0d3lDSG1OemcxWUY5WHIyYTM2MVZXeGFRZUtyX29Oajk2UEdVSXdibE44YXZsXzF1dTh0ekw4VmZ1MHZyOVJEUWRTV1ljY1M4TEhObkdveGRTSjNfX2FDQnA3VEkwTnR5WFVrZWdXZnJrYkRPQmYyN2QtdU05NGZEVDczREhXMkZNODJONUlXZFNlSzhoZF9VVldOT01vMVZXTDRza0k5ei15OHZRZndJTkNRU1B0RjhJZFQ0SEFwRkFyNTZXcWdsS3l2enFvMjg?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Short-Term Treasury Yields Climb as Dow and S&P 500 Fall, Oil price Hit $95",
+      "source": "Eurasia Business News",
+      "publishedAt": "2026-09-04T21:45:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNlNFVEk1N0gwcEQzSjhSX1ZGRHhmWUFCSnhlTEVoeDVZa0N6bEtSdnJHZnVuQ2NJUDBfb194NXdteVZvdVNqQm85VjRsOEFRaGdrWF91N25PZDVLOTNuZVlsUkV5ekJJaFdfV2d6WUhORGVzS3l4NUJhdW8zSy1paDlpc2NSV2J0VzBCZjk3c2hQb3ViNERYRDdDZDc2dXlkOTg0dWR1SGRGMGRQbXpENUtDdGpScEtxREJucGhqRzZFRjg1aS1yYXlXbFdpWmhx?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "This week in charts: China deals, stock flatlines and Lilly’s M&A spree",
       "source": "BioPharma Dive",
       "publishedAt": "2026-09-04T15:58:15+00:00",
@@ -20580,7 +20615,7 @@
     },
     {
       "title": "Yields rise, stocks mostly ease after solid U.S. jobs report",
-      "source": "Reuters",
+      "source": "reuters.com",
       "publishedAt": "2026-09-04T02:34:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rcFlLejhNNm1fZ1hhM3NvLV8zZTJuOTE5QUVSUVR2V0IxQWpuLUZxVHFmRXpWVHd2OWU0cUR3eW9ZMFZKQnhwcFdrOHBZclNEZkF1X01MYmw4dUZTbU9zWGJPMEJ4N3FXNkY1MHAwSFZWenJGVWM4blVzbw?oc=5",
       "bucket": "Zinsen / Inflation",
@@ -20597,10 +20632,10 @@
       ]
     },
     {
-      "title": "China’s Commercial Space Sector Is Going Public",
-      "source": "Payload Space",
-      "publishedAt": "2026-09-04T12:06:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RallEUjh5dng3NU4wbF9wTFRxSUl5aE9kU0lNWFBYaXkwTHplSGIxSVhfNlYzWHFLM0YzcnAwMjRHMlM3aGVnTEdMczlDWGtsdzJXZVJCRU8wQkR1UC1BcDQzVGxfaGYzNHdFTG9QbkctZy1UbkV1dWc0NGc?oc=5",
+      "title": "Japan Has Not Done This Since 1990. If It Happens, the Cheap Money Propping Up US Stocks Gets Expensive",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-09-04T19:18:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOXA2WkNFbXdGUHBodG5malNfem1IZGlfWTZveGlqenMtajYyVUtaejdVU0ZIUDZTWTIwemRaT21GaS1qVUFhRTFpbm5vVkt5MWhXaGlZY1VZczdibVBEMlItSUxSTXZmWDVtWXpXNGVxNHNOU1FIWE9JZS1FYkM3WEdXM2dqTWtPTDZwTlFPaF90VjR5YVcyRjVUbndxdkVCVUpWeHM3cEU3Z2diT0ZSZ1I5ZkpOSkhGeHhST0tGcGhiVXprbDJiTkl6S2UwLW1TUGhvcVZMbEFVQVVmY3c?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20614,57 +20649,20 @@
       ]
     },
     {
-      "title": "Trump Issues Stark Threat To Federal Reserve: \"Lower The Rate Or I'll Stop Trading With Countries With Which We Have A Deficit\"",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-09-04T14:27:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWWhQdXpvel9OX2M5enV0ekVVamwweGZvUGVMTVhwczl1Rm54eXRBWWVPd0hkTVk5aHhneXdUZjYtMms5elJHUE5BS0JFUUxWVWg1R1BURGRpXzZKcjl4bEFkNmk2VFNRZzMxOEFuaEZRODlzSExicWM2NEdaSDc1NENHNm9BZ2hIY3EyLXJINFVIcW50Yl9YdDFCQ0tCbXFUcWlSOU9CY1hoenNjN2ZISjBxYUdOdFdfZUxzSjV4SjBXVkNNdkE4SFg4OWxFZ0lETk01OVl1YzVicm15TFNHcmdpeDlRbHVwaldfTnViblo5NlJyVWxVVkRKcw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "China’s Commercial Space Sector Is Going Public",
+      "source": "payloadspace.com",
+      "publishedAt": "2026-09-04T12:06:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RallEUjh5dng3NU4wbF9wTFRxSUl5aE9kU0lNWFBYaXkwTHplSGIxSVhfNlYzWHFLM0YzcnAwMjRHMlM3aGVnTEdMczlDWGtsdzJXZVJCRU8wQkR1UC1BcDQzVGxfaGYzNHdFTG9QbkctZy1UbkV1dWc0NGc?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Stocks Jump After Fed Official Says He Could Back Rate Hold, Oil price at $92",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-09-03T20:47:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNjZHd0RFN2dDekhweFNpdFY3VlJqN3BBbFBaNldNbW50anA0VGlndUg0aldzb0ZRaHlSSFJmS1pMZGNVajZKUTlSVnRYZXZJdDJlbnY5eXA4bXRMeVBrTVMwV2NhY2gwYmpWZzZTQTNaQjVFcTlRbEdmMGllZTlLd2stRy1xS2RlVFVrVkFpSlU3WHlHQ1B0VG5FUTFUQ0xrNTl1TDZsaWEteXl3WXdZcEQ5clpENk1kenk4LWZjVGdiZnd6bkh5Qkh4ZWVVaWJEaTQ4dg?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "The Federal Reserve's Initial September Inflation Forecast Has Arrived, and It Contains a Glaring Red Flag for Wall Street",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-04T09:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTXIzYW41YXVfc09sMmh0Y3ljWU1DZVlpdTdCZzVOVks1OVpyN3NlbTRoWVIwNDNrM0xVSWQ4X2JCOWM1TUpBSXltWEFRRG1UUGtCcjk2Y25NZXlPLUpOdFFDODNPTllVUEo5QU9HSGF5Vk5KWVNwV3JMUjQ2bngtSjJsenU1ekpUWVBrZGFncFJ3Y19YQUxj?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     }
   ]
