@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T15:55:24.251125+00:00",
+  "fetchedAt": "2026-09-08T19:14:06.655147+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20584,9 +20584,9 @@
     },
     {
       "title": "Oil prices keep rising and weigh on Wall Street",
-      "source": "Boston Herald",
-      "publishedAt": "2026-09-08T13:47:42+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblVweWsyMWhiUzh6SDJBQzBmc01MYlh3RjBUcXZyYTVvaENEcFUxakNIS3JUQlVUVFNNcW5jdzFWZlJJcm1NTnJnbDlTVzgzc3duYVBLVHNTSUZXMlVtVGNOU0FwLXhVWFFqSmRUamFDazdsdmFBTzNvLUdLaUZvXw?oc=5",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-09-08T13:45:03+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZ1p0QzdoZ3JOeGVLTl9qb1VCelVDMG51dS1CMWNSSEhmUU5ubW13a2hiZ0txS2ZzeHd3M2l3bndSZ2JTNGM0MzhFbFFzeWNPdU4zZmQtcG1aX1FrYTFmSU00TGQ3ZGNtRFlVRGY4Q0dMSk5DSnJZblpvbngyQnVKb1ZrMnV6WUlSMmRsM0Zna0doOWEtOXhOd0tDX1A4TWpzdmZFbzNaZzRvTEo3dFZTZlhqZmw3dDJTY3d4eDNHTXNCYnJfM1lWNWhJUV9SZV9pcUZaUDRoVHVDM08zQmdFUA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20601,20 +20601,20 @@
       ]
     },
     {
-      "title": "Earnings Are So Strong That Stocks Keep Getting Cheaper Around the World",
-      "source": "inc.com",
-      "publishedAt": "2026-09-08T11:39:10+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVkwwQ0ZBcmVXdnNNM1dwUk9Xd0V4TExUc2ZVQnZlQ2VSS05scWhwZzRlcWN4bEFBRUNxSWhFeFBWREFSWEU4WXI4MjgwNTdacXIwbldsZXB6ZVh2cTVhWElGb3p0NW9jUWluTmxEb01VUV90XzUtSm83MVBVZ1pCeGQ1UXowc0lmaE5wWXdVcGo5aG85MlRMbw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "US stocks drift lower following their return from a 3-day weekend",
+      "source": "Boston Herald",
+      "publishedAt": "2026-09-08T17:58:52+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblVweWsyMWhiUzh6SDJBQzBmc01MYlh3RjBUcXZyYTVvaENEcFUxakNIS3JUQlVUVFNNcW5jdzFWZlJJcm1NTnJnbDlTVzgzc3duYVBLVHNTSUZXMlVtVGNOU0FwLXhVWFFqSmRUamFDazdsdmFBTzNvLUdLaUZvXw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20636,28 +20636,27 @@
       ]
     },
     {
-      "title": "Stocks Fall as Oil Gain Stokes Inflation Worries: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-07T22:08:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeUNXZ2stRmRzNFVKSjV5cm5EMUh4SG80emRXbVlsMFNhUHJ0SFYxM2hzY1B6RDhXbkc2aTZJdXFOY1FwQW9WWHRERWlINTc4OU1IWkZnLUhlSDRZc0hGOEt5RjlscWNsMUxLbVZLb1RCbmViemZjQk0xNTZFMS1KbXo4TmxrU0x3dGFCVzkwSURoaU5m?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Earnings Are So Strong That Stocks Keep Getting Cheaper Around the World",
+      "source": "inc.com",
+      "publishedAt": "2026-09-08T11:39:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVkwwQ0ZBcmVXdnNNM1dwUk9Xd0V4TExUc2ZVQnZlQ2VSS05scWhwZzRlcWN4bEFBRUNxSWhFeFBWREFSWEU4WXI4MjgwNTdacXIwbldsZXB6ZVh2cTVhWElGb3p0NW9jUWluTmxEb01VUV90XzUtSm83MVBVZ1pCeGQ1UXowc0lmaE5wWXdVcGo5aG85MlRMbw?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "European shares dip on oil-led inflation woes; Novartis set for worst day on record",
-      "source": "The Mighty 790 KFGO",
-      "publishedAt": "2026-09-08T10:16:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTl9qS1RXbzNVSjM0RFpxWVhIRHhJLWI5amdKbVBjd2c3WnJybkNCWDlkRVEybW1OdHNhRnptbkMwRU5HNG14RURZM3lKU1pWZVBrSUlhVGd4ODdESEJIaVM5aW8yYjV2VFktTHU5YjU1eG9EQWQzUGI2MkpsVnZWOXNCdERzaUZYb3hnSWFBUWZvd1NxNVRFbGE1RVZmWXdMcG1keEN5YlM?oc=5",
+      "title": "S&P 500, Nasdaq Slip as $98 Brent Reignites Inflation Fears: Stock Market Today",
+      "source": "tradingview.com",
+      "publishedAt": "2026-09-08T17:13:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc05nQmJCSUMxRkwxSkZSb0NjSV9HVGNJcVM2SjVJZG00SVVSOEhoMV9HalBLS19semhWRk9kUG9uQ3ZtWkZEZmNZUFlkMUFCeFdlcHN0Qk54T3I2WXV5VkNOU1RGYWwyRGh2WGpjZWx5YnNMVEdGX19pS2VKdmszR0dNSnZ4cWNsci1mWG00OHZlakpyaFVFbWdjVDQyY21iX3Y5YTF0RXJxNThOTDBhWjZXRFcycEd5MTYyS2I3S3dVaVFLTUVZbDQ4UkVkZEJN?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
