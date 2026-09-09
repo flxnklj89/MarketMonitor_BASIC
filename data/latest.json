@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T19:02:13.369784+00:00",
+  "fetchedAt": "2026-09-09T22:13:27.215168+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -59,7 +59,7 @@
         "vix": 15.72,
         "brent": 96.02,
         "eurusd": 1.1618,
-        "us10y": 4.78
+        "us10y": 4.8
       }
     }
   },
@@ -194,9 +194,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.78,
-      "chg": 0.01,
-      "chgPct": 0.21,
+      "val": 4.8,
+      "chg": 0.02,
+      "chgPct": 0.42,
       "unit": "%",
       "dec": 2
     },
@@ -20566,26 +20566,27 @@
   },
   "news": [
     {
-      "title": "Investors: Sept. 16 Will Be a Critical Day for the Stock Market. Here's What You Need to Know.",
-      "source": "fool.com",
-      "publishedAt": "2026-09-09T17:44:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbXNYMTlJZ29tT3hkMDI5X3lWVjZ3a000eGpVd2taS0JIQ01sMlFYOUs0a0xGWkVBa1BVeXJRd1pBRmJsME5WelBuTDFqb2tscko5RjZQTWZFT0h2ejk2RXNWWXZwQ1Q3bklueHFDU0k5TEhhZ0IwNHFVcUhITTRYRk5uVmZqelZMUFI2N3puOA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Markets Rocked as Crude Oil Knocks on $100: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-09-09T20:12:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWV90blk2SHZOTEtBUFBnUDZFUUlBNUlRWDFqYVBGZnZCWnJFTHFJdEZnajNsTDNpMlBwRE5Tdy1kazE4M2Z1NlJCYkdJakhRVHZRQUZMS1VGRzRiby1lc2ZwVDhKenhiOVpTU3ZGZmVRc3dhNmR4Q1UwQXJSMF9OX25qRnNzaU16dk10dzdEWEpxdTlTejdRTk5ZbkR5T0FsOGw0Zjh4SEFXQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "S&P 500 falls as oil tops $100 per barrel",
+      "title": "S&P 500 ends down as oil tops $100 per barrel",
       "source": "Reuters",
-      "publishedAt": "2026-09-09T18:33:53+00:00",
+      "publishedAt": "2026-09-09T20:15:15+00:00",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZExkRWJ1dThFMjNOZWdHdkJuSFd4UENUUko1cUI2aWJNMkQzb3FtYm5kNWUza3hVRVQ2Qlk0WjFGRnlGZWRhbzVMckNacFc4NDRXbzRqTmdyWWxTdVZoQ3pYNjY2Nm9pNHJRTUo0dlhkNkFzN2NSZ3BYR2Rqb1dfYkFjWHI1eW5USFlQd200RzI1cVVYY0VsdEZMbDdNQnZrLThZ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20601,28 +20602,27 @@
       ]
     },
     {
-      "title": "Stocks fall on Wall Street as oil prices jump above $100 a barrel after US and Iran war escalates",
-      "source": "AP News",
-      "publishedAt": "2026-09-09T14:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU1FDWlZxem5yejRWekJjdmdOVW4tU2RQYWpQX2FDWmlHZ3lBOVlYNjdEb01mcUFvM2FhaV9fMG5kUno1VzRjY0F6WkhKbmgxTzUwZXdabXprUjdGbTBuVE5jR2s4QVJqdkt6cS1QTVcwMW82d29FYjBvMFoxdjVrdkxwS0wyY0toNWNYaUpqUkJ6ZkM0bFZHdDk4RU1qWm9Ga0VUQ1J3WQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Investors: Sept. 16 Will Be a Critical Day for the Stock Market. Here's What You Need to Know.",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-09T18:03:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbXNYMTlJZ29tT3hkMDI5X3lWVjZ3a000eGpVd2taS0JIQ01sMlFYOUs0a0xGWkVBa1BVeXJRd1pBRmJsME5WelBuTDFqb2tscko5RjZQTWZFT0h2ejk2RXNWWXZwQ1Q3bklueHFDU0k5TEhhZ0IwNHFVcUhITTRYRk5uVmZqelZMUFI2N3puOA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Stocks fall as oil rises ahead of inflation reports",
-      "source": "thebusinessjournal.com",
-      "publishedAt": "2026-09-08T22:34:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5haVdFbGRJclBNZlVxQ0xuS0d3b2VNeDRYZXI0cWZxYlZ5SmNTQmd0OXl0bDVoSndrVlJ1VTFCV0RrdnJxcTdMazI5UFE0TGozejJwUmE0WnVBX0Jfa0Z4Y2ZIdmtoZDRYOXNnQ1NfVHo3Wm9TekxTNTNXWVI?oc=5",
+      "title": "Oil tops $100, stocks slide as Middle East tensions escalate",
+      "source": "KSL.com",
+      "publishedAt": "2026-09-09T18:20:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWHNTd2hFOENVRmlsczFVQU9SX1pjeDU4TjNfMnJ3OTFmV3lQZDV6UHg3UWhKY0VSVk5PVTlONFpYaEc4X3F3cXVFOU8zMng2bWgxdUgyVFZQQVNKWGZOT3ZHQ1ZyNkxxeWc3c194Y3A1cUxxQ0NKN0Y1WWk2eG4zRWxLbXpsc2J2MkZfMVY0Q2M4NFVGUFh0TksyWQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20655,9 +20655,9 @@
     },
     {
       "title": "Stock Market Midday, Sept. 9: Stocks Slide as Oil Surges Past $100, While Meta Gains",
-      "source": "fool.com",
-      "publishedAt": "2026-09-09T17:13:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSnZIT09hd3liaHVmOFpISG1wMFJkaUZ3WTV3TERNN2xqNXJkbEl0OFFQbDlVQnlwQzlTaWg2RVBseHpPWnNseURzZWstTkZjcVlvYnNlUl9LX2RKdVRvN1JUQTNBWDhROVlnR0hhVlYtX2FLZXRHOU52dFZ6NFhDaDZUYklkOUVnaHJZb3JPdm1tZC0tQ3JiTzhoTHJNdXUzYkREckJHVjRhbTVpMXdocUpvRUdGTk1KUW5yX1FLSTV1bGEtUlBScUtxTFY1SWZoMGR5ZEFMWnRDMzQ?oc=5",
+      "source": "currently.att.yahoo.com",
+      "publishedAt": "2026-09-09T16:58:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRzFKWGp3dHhwcmJmRDZ0WWlpckxDZ1VpNXpOV0tUb01vWlNuZHRyYUxCMmQ5LVFJN0JzNmJzdWNHTzFvZWgyQ3FLTTlnMjRtRzRoY3FxRXczdkxIQzN1OThmQS14ZzBJNTE2UENia0JxaTB5NGp3NExPNnV6QzJzUnhVQQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
