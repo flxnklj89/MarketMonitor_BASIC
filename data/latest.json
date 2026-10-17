@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T02:49:52.997535+00:00",
+  "fetchedAt": "2026-10-17T08:13:31.409912+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -20647,24 +20647,6 @@
       ]
     },
     {
-      "title": "Wall Street ends down sharply, worries about AI trade and high oil prices weigh",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-16T20:32:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc0xJZDhoTHdCbXFuWjRsZGlQVHlDbUgwNWNQbTNXamJDWmlqaEkxc2pRV1FjVzRWU2lwbGl0elNTY2YzcGNCTUtTTFhuOWl5ZngydHpNTHlpSDNaSzZ3ellNUDVELUd1Wkp5QkxLZHV5LVItMTR1bGlVdU9ZN0ZhalZ0VFRJeTRpMTVmNk9HMXpqT29tQ1E?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Stock Market Swings On AI Fears, Tumbling Yields; Taiwan Semi, ASML, JPMorgan In Focus: Weekly Review",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-10-16T14:43:00+00:00",
@@ -20680,6 +20662,24 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "Tourmaline Oil Corp. stock rises Friday, outperforms market",
+      "source": "MarketWatch",
+      "publishedAt": "2026-10-16T20:36:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcTdYbWdtQlk4NE1QS1dTelJwYktJbWNsaVRlNXBiUUptSC1jQWRjR0dfaDBGUnYzVi1ZTjdHeEZ6VUdvelM2Z1h4cENQTDc5MzVPOFZJNVdOM3E4QVJPQ2dFWDJ1bk9DQ1gxNVJ0aW5JaEtKeXJuQVdldDR2b2VtZkNkanJ3TUhJdFNNOExxalBjZ2dwam5qMzB2S2hqdlRfT01uRnlwaElRUHFaNkpjYnhCSmxnQTRYS2FHbTR5ZkpsTFdJMUpWZl9zNFVSV2pa?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
