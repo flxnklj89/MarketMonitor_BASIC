@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T16:17:05.665483+00:00",
+  "fetchedAt": "2026-10-20T22:54:05.587621+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -59,7 +59,7 @@
         "vix": 18.44,
         "brent": 126.55,
         "eurusd": 1.1231,
-        "us10y": 5.09
+        "us10y": 5.15
       }
     }
   },
@@ -194,9 +194,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 5.09,
-      "chg": -0.01,
-      "chgPct": -0.2,
+      "val": 5.15,
+      "chg": 0.06,
+      "chgPct": 1.18,
       "unit": "%",
       "dec": 2
     },
@@ -20570,27 +20570,9 @@
   },
   "news": [
     {
-      "title": "Trump announces 100% tariff on Chinese imports, after stock market sell-off",
-      "source": "ABC7 Chicago",
-      "publishedAt": "2026-10-20T10:13:48+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuhVBVV95cUxPd3VrUWdheEpLUldIY0JjSEhBVE5iZWxFdGRmUnBENjZRQnZjdHcydWNKamJ0aVUzRW1pblRNbm05b3Nrdzh5WW94bEhiOHNJeHZCTjFhMDdYeXIyZFRTZzhPSlJHY2N4ZERvWXd6eExPMmFEUzhSb0FlZ19UOVF5M3EtNGJxQy1KT21MM3B4ZkNKSzJJSjRHYTluNzFFMU5DR19mV0xJbzQ0Wmw4V1U1NFd4UjJHWXFnRjFWLU1rV0dZWmVuZHFPbWtMYkpGbEtiSkJvZFVOdGRCR2hsM2V5MDQ1eldSRkthdl82THVtYzI3WmRmR05VVFNJTWxBaG1qbjRzMnZtQS1HRzBDd0loWGxud0lUZXhVQ2h0d3ktWWhrNE1YZTY3SlliNUxCZk9qNE8xMGM1cHlvb3J1M2szenZEZWlKaV9hMElLUEhKVl9IWFRxUFNCVC1aWGUydEFlb2RBSjNNM05MRElsZjZLc2RENEJYRnNHRWFfQ3pVNFZDcUF5bC1wUjJrSDQzSGtVaG1fNlRUYzlZSmU4RUtNcEg2SWwyMXZCZG84WUZuX3hseEVuRU1tWGgwaEdWQlNLejRFRDZnZHlMcEEwZkU1clA0ZHdRYS1scU0xZE5iSUw5UmtRNUttalpMc1BwbnlNMERrSlhuNGVuUE9KZWNpVmduS3JnWE1rQ2NLdG1iV1VtLTBtR0trOE1DRXdBNjBfRzIwTkh6Y2lNTUdvc09qbmVhU0VrWjF4N2pLMnhfWDJPTi1IalVfaWVoYzdoN2VqRkItRG81UXp6NlNjNFFBUGZaN21WY2ZZOERpR2FVSXZQNzVVSDFoTXNoVzR2VHhxZGJ6YTBDT1cyaWNEYWZvTXZBV2Z4eElIc0JuTkdvWUVxeERmcFdHbS1XVHFUdDk2WXg4Q3F0MkN2MVFvSFFzVl9TTTk1TU5GRmVHeGhCUU5aMnBEbGZ4ZWhMamFjbEcyb2ZaVzRPQ1ZZVjJ4SU53bXhxUWhPY0w2ZFQwRFdtOTZfQ05lUWRqZ1RRTmg4U1RqR3lJRGhVelQwSU9ySWFlSFhTX3pfempNZDM5WnlRd3NzTlBibkI4eEpfblpqM05uTmJQdE5mcFIwYUxoamRQem5RY1NWYzhzbUZDM3ZHN3lXR3dKa0lZMnRNM0hsbkw2RWlLRmRsYnJoUmRJTzZwbnJzTURTVkJnZVd1SkRnU1hrV041MUY3bEw0b2ZSMDZLbnpLV2ljTF9vM0tQdXpFQVJIUWd4aUlxRTVHSTI2ZWhya3Aybllpb3l1S3JJVENzd3hvTEtwb0ZIVmtOUWdaMEVwb0lOLU9raXB4QXFDNmVJZzZaeFdGNWpWUzRSVGVqNk4zSTM4Q2hUUkJncVJvUkdUZWpFMTFkeHBtTFZKellHWDNqZEQxSXNPSHVnV3VRZERfS3ZmWUprRGNOSlFScjVlVzdrdEFqLW9SaDlYbldjenE1X1FVTGI4X2pZOWY5ejVpRnVwQXZ5ZFlBY0NOM0hzQXFhaDRrOTdyeWVFMDdhVFJSaDFYQ1Y1YVN0TWlvUXBtX1B2ZmMtU21RZEZWbUJpQUhuZnFwTFlQRFRqb2MzOTlCdDRvVWpBNG9SeGxyMXdIdmxNNFZMSTc0aVJQdjc2SUczaWR2R2kxMWxkZWpGaFRZaTJoemRWb3d4NXpicXUzWE16N3NRVURXLUhXQ25LRzMxWDh6RGpCclpZY3lzWmtreU14akkyQ3pXQmVleUdDU00xME9FOWZKLXpSN2dxWDRaLWdoTnBTWFBKMHRQZGJza3FZTGZWY0t0a0M1Q1B1N1lzWkEtQW9nZGYyY0lzWlVQckhEMlRiSU9vZkp1ZTBETFk5NEU2Z0ZaUTJYOV9lTFdHSlo3aDFDVW81QXhxN2cyZ0JTbHZDTVZPY1RNVk9ERmNyTWVZZkJFSTZsQW1iQ2ZJSXpXUU1xalZ1TWVmY3JUX3VkclIzZVRYSTE5dEltNS1TOVNvNHpiTm4xREhnZi1ZRzR0a0ZHMGVZcnNleFBKTTBxUGpTM0xsU0FKeUxBRHVZb3hJajY1ZW9sbTY1VmlKV3ViZi1RWF9CWEJhMzJMUHNaU041MWZhaE05UjhrSzBxNHZfU29BMmxzWkxUWGRXLU1qSWR1aE9ma2dhT0E4NFptUU50ZENSVnYtdkFWNU54YWc0dExvb1JQcXlweFdWZXNjdEt5bW4tZzBMSnVoWHctbFdQbUZ4MHZ6aXFwSEJMNGpGdlJLcTNJb1Q4aExpamFWSlB2QWZSOC1LV0NhTzNySVB2RUwyR1FiamR3ZlZLMnVsNWFUZHVzWUUtMS1NNGt3a0tsbG9MZkNuRGxxSFV3NEU1bG5RcGhhOEZzVzdranB1NzA2VGhabjlscjhzMC1WSWhXTGlSNkRhLXJCSUpaR1o3anREZkdSQUt6SDVxazhNQ09pVTFyOVpiRTRxd1RRMXlrV29mR3NNTlVGYnQ3NjdZZlJIaE53aWZNSkJuYkFLZTlZSGVFYURwQjZaZ2Qzb0NVMjlJVEt3TjRWQm9pd1duWXlwbW1KM0sxbGV5RnBkTU92V0YxeVhWRmJpVVlNamZ6WHZiekczS2hUbmVpbTN5YmdlUU8wVXgtVVRjNTlDMm5GOUhUeVdxdy1vUEtYWnd4M1liU1lOTVplcXZVT0FQTjEwNGN0SkR1aGZVdVJjeE1FMnVNcEJxeGxKTnFsSVRwdmNnY0p6eS1kek9rVjJaaTFoRHM3RkgwM3hZZUd0YWhVcktfeXZsYzZnQlpRWDMtenV1eFJZUHhoUUxsMnAwMkYxRU54QXMxYmhpeGNUUGdkbU80ZDRMSzlnQ2tJWjhVMnlISWZhSkhTRkc4dk5zdjEteXVuaEtFN19ORHZTdHk5ak1mOE4tVDVyWG9wZ3JSc1JPM09wVEZ5THRPN1hxeTlNVmJmdHM2Q0QtTlpCZV85VkJCelZvbE5mb2xoUU5ZMUxSOVVYckFMcFJTZE44U2ZVY0s0ekpxemxLUjNJczJNMU5UTWNORVpWV1BieVZHSTBTWUdfLVNoWmhfZTJhX0dSczJsZDlINEd5WHI5RklZbjV3MnBGR2RpV242Q2tKQ0w1VkJmZ1pfY2NEeGFrVDJPZ2VITkMyT21kSGZ0QllXSFlJczc2eGNRdVdpX19iU2lzYjRpVVZkcTI0NXFkOVg4UEVMbXR5aVlrY2VfT1QweUl1TXBHNFlNQUR6OGM1MzFfMmFlamxhV2thRlc3MWRsbElMbG9ZRXlVV0l6ZnBXMktUcHVmNXhlRHVTekI3eFUxaXZlVEVIRWt4SjdFRE10dmVSbFNKYTlsa3gyQXlHT1l2clJmMVUtT2M4WkRUYW5aUUtKV1ZOb2dyaEs0TTZnSHhxdEpiVTA4cG1HZWF3aEE2YVRnUS1hYzNma0dieW1YMjgzamRDRV80ZUdMWTJDcDRBOGxZQlUtUmQxSjc4ZmR1eVIweU5TWmVnQmVZUHB2ZGJCOEF5VUhXYy1Sd0N5S0Z4d3I4UEFVS05zZU5yLV9QVW5XRG80akh1Yk9ncy1QN1NuNVZEMHBvN2hvTUtZV2pNMERDaUhCbmNqVjhKYm5pLTJuQ2VBVGp2TWxVS1lQYXZWYTRYVDVWeWd6Qm9SU0J3Qnk0b0RwSS1n?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
-      ]
-    },
-    {
-      "title": "US stocks rise after oil prices retreat and companies deliver strong profits",
+      "title": "US stocks rise after companies deliver strong profits and oil prices retreat",
       "source": "AP News",
-      "publishedAt": "2026-10-20T15:01:00+00:00",
+      "publishedAt": "2026-10-20T20:05:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUxwUkw1R0I4c0hwa0lfVGdUQ3ZoMlVlZzZBa1RBTU9hMEZtSTFQY3d3NzVYRlFiN1hubTFWX3JXVnZBbnUxSmFsM05CZ1lyVVVOamlWOXlxUzdaMTcxdFBzY3gzZVdmNjZaTXNPNWtBeTNvMTVETWtwcGxaaE5CQWFUOS0tM1NpS2FkT1pocUlYWGZkX2wyd0d3OTg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20606,10 +20588,10 @@
       ]
     },
     {
-      "title": "President Donald Trump Claims, \"We Don't Have Inflation, and Tariffs Don't Cause Inflation,\" but a New Report Strongly Disagrees",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-20T09:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNFRxT3JwM1BxR3VxQ1I1a1BCSkNJUmNIQ1lUXzF0M1M3WUNRM0M0NWx5aVpwd0dKUnFpQjBGbHpueXJwa01OMnpueWtYZUoxRFVSQXpTOWRicy1TbDVnOUJZb011M1hEeVE2YW93YkZQdTFKb1ZreEhlaHI5ZUVObUc2ZzZEaElMZDlKeGlDc2s1TDFIYWVOaDQzR3Z4SFJ5M2dqSk14YVYtTnJkckdXOEFYOU5zVjcxc294bUxxVWhobm90S294c3ZrQQ?oc=5",
+      "title": "ZEW Survey Shows a Sharp Reduction in Inflation Concerns",
+      "source": "Haver Analytics",
+      "publishedAt": "2026-10-20T22:30:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM292eE9yUW5yT2U4MTMwRGtsRzVCVk1mNGIyc1g2cnVZOWxfTkUwRVpuSDFzMG04UTBmUXJEdXhzX1piOG1IcHQ4eno2MlhNbGNobFQyTkRNcDZWbDZSaU02Ri1kSWpwaTFKUUhPdGdYSXY3U3E3OUdrMkN3dm5CcTRyRzVYMnN5YXMzX2xTYVo?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20624,28 +20606,62 @@
       ]
     },
     {
-      "title": "US stocks rise after companies deliver strong profits and oil prices retreat",
-      "source": "Yakima Herald-Republic",
-      "publishedAt": "2026-10-20T15:55:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQRHBXa2ZLdV80Z2s3dXYtMVJZSGl6aDRrNHh4WUhpa1NiSjl3V0N1R2pxanhidEhNRXVuaDZJTTROMWxfcjRvU29uYVkwTy1PYWdHY0hGS2VPb1FOUm5KQ0wzWld2MkhVY2ZwSUFIYnROZXk4b1Z3NVZDajhPNDRZMV83STJraExMZlU5X0JuR3QySzVoOHBEbEdNdnBPRDRPMEZRVkFRUXFTQjZRYlR1R0pSX2F3VXBjM1VlcTkxSHFZT2VkQUhYTC1MdnFJdWhSQVNnT21MR1c1Zl9mTXFSYm01QjNIVjg1MS1meWgtV3VmeTRwVi1qekRydGFsandlM3BMSFlUQzA2Q2lvQ1VYa2RfS3nSAZoCQVVfeXFMUGtFQU5aZjJUV0N3ZDJibDZ4TW1vTkQ4VEh4S1FpM1lOb0JaQkw3REVKU0V2dTR4NUFKdGNsLVR4eTZ2WC0xb3BmTUFKeTZkdmRiYXlzam81Q0ZVSWR4UHY5ZnRNMUhTa2JpNDdIS3NCellZY1NEZFA2NnJRY255RzQtVWxmeDdBTmx6NFVCbkpQY1I2TVlqY053MVljRWc2TGtFaFJLcUVzUk1OUEVHN3JTdjVWSU1QUjdoT2xlbXo2LTZLcVEzT1hJUkp6REg3bnRmRWtqV2V0enJlSUZWRlQ0dTBFOFBwMnZkQU8yLVJuanFUUmN5ZnRZMjNqRjUtbXNRT01TZThtMUMycDRTMWcwdXYzVnVvbGlB?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "President Donald Trump Claims, \"We Don't Have Inflation, and Tariffs Don't Cause Inflation,\" but a New Report Strongly Disagrees",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-20T08:26:02+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUHpvUFZUTkRFTnd4Z0pKYXhqTG5ZTnJUb1o1MXZhaXdFcFFoWW1rUXRFeUpRR1ZzOUFnN0RxQUdmU09SWlNoOG5VVXRxSENQc3FRcnpBZVBRVzJJRVJfWm1Fc0VMUVNVRzd2UDF3Q284MGFzaDIyUEZGejZvZVJHMDFadXBYMFRST1RSc0Z0V3hxTHEwSmxUaUNyWWFGNmU3?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "What Turned a Stock Market Crash into the Great Depression?",
-      "source": "The Daily Economy",
-      "publishedAt": "2026-10-20T10:23:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNGRrVGoxM2FSaFhDRXZXQWxDeTRVTy1GRElJd2tvLTUwN3llQkFYWlB6S3pYZWVDb1MyTGJZZjhLVEFTRlBuY2NpUFFfV3cxSDdJMDN4czZBclZRR2ptbng0QTdqZkxtSWc5OTBOUlFGM0E4ZUtXVnpNOW1FSkplNTBHSE1wazQ3cDI4RXVnY3NPU2lUeGdIZ0sxQQ?oc=5",
+      "title": "Stock Market Today, Oct. 20: SpaceX Stock Gains After Market Close on Q3 Earnings Report",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-20T21:24:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNXIydTVqa3FFd2doV1RHYkJ4UUVDNDhYYm1mMERZVnJHQ21aNmxYazd6ZUhiWm1CZzlYVXRreXpOTUZGRzRudjB4S00yZXhZVEtKS2NSZUFhYk4zUjQ3QlNrX2J2N1V5bk5BUnJaN1JXMnczZFlMQ1hfY3Brd2lRbmMxTkxma1BVelhQX0dDMHBwRk9Ia0NVaFZjUEZmZ193VHBKTmwyY1VaT0JlLUJpdE1QUXlJSGdHOWc5YTlWV3F5b0NGRS1UZkwwaThPTkswYzg2VnFBNkp2enJQX0tN?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Most US stocks rise following strong profit reports from Equifax, Hasbro and other big companies",
+      "source": "Boston Herald",
+      "publishedAt": "2026-10-20T20:46:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10S0FSR1JzeGstdTFia1VMQlZ4bGMxMldYeUkzWldCWTBzZkx6Tzk1TEFqZzNVOWo4RjVEVHFVMEVGZE1USmdoZEtBWFhnT2dOVmtNN0huY1F5bXZ5a0NQQUh0UWlmWmVpWHY1SnoxZ3JlWWJNcmdpV0laMA?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow Surges Nearly 530 Points",
+      "source": "STL.News",
+      "publishedAt": "2026-10-20T21:23:51+00:00",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4bTlLNWNJMzRTTEpIbW9RNU1WWHg1Znl4a2xLYlB0aEFkb3d5bjM4bmQ2dmdMV0N3cUNCWm03dDVLOG1sVXowR2pPNDBvUnUyTnBoenRJbkFLNWxKQjJfZmxoM1ZBb2huX3ZTNFVfcGpFdk1XZWdqUA?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20656,24 +20672,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Wall Street gains as healthcare stocks rally, oil prices fall By Reuters",
-      "source": "Investing.com",
-      "publishedAt": "2026-10-20T14:51:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd2RDZTZ6bV9tdDR5Mzh2T0dJTlo1M0xzRENfWERjT000TXlmVnRZdmNBSGRfaDk5dUNjdkxZUHZpZVFoSjkxbFZpTlJLVkdLM0NmNmVNVjA1aVVtalk5LWpBZ0ZscTRjNG9MdmpPaURmOU5EWjlRM0RXMkRqbHI5M29sNzVxUjVjUDV4cXNteElodGg2azljTE50UmVLS01tZ0ZNdXJjcmc2X0JPbVE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
