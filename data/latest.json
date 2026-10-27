@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T23:32:03.842493+00:00",
+  "fetchedAt": "2026-10-27T03:32:52.286808+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 37.3,
     "label": "Stabil",
-    "date": "2026-10-26"
+    "date": "2026-10-27"
   },
   "regions": {
     "europe": {
@@ -882,10 +882,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-10-27",
-        "value": 0.09
-      },
       {
         "date": "2020-10-28",
         "value": 0.09
@@ -7614,10 +7610,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-10-27",
-        "value": 3390.68
-      },
       {
         "date": "2020-10-28",
         "value": 3271.03
@@ -14359,10 +14351,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-10-27",
-        "value": 28
-      },
-      {
         "date": "2020-10-28",
         "value": 28
       },
@@ -20576,7 +20564,7 @@
     {
       "title": "Asian Stocks to Gain as Anthropic Files for IPO: Markets Wrap",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-10-26T22:09:08+00:00",
+      "publishedAt": "2026-10-27T02:40:33+00:00",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20591,26 +20579,9 @@
       ]
     },
     {
-      "title": "In China, the AI bubble has already burst",
-      "source": "Reuters",
-      "publishedAt": "2026-10-26T16:19:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkWmMyZDZqTHlsckJwbEsxWVZGTnI5U2lPcFNXLXFoYmRRZm1rU2NWREZrWGVRblRES2FmdkwtUVIzMDlTS2N4ZW5vNno1Y2JCR1FzclhmdUVBOU5jMElCd2FwTlN1VzdfOU94YXlFc2VSWmRObXZyMVhyNnlf?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
       "title": "Dow Jones Futures: Elon Musk-Led Tesla Leads Market Higher; Amazon, Alphabet, Microsoft Earnings On Deck",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-10-26T21:04:19+00:00",
+      "publishedAt": "2026-10-27T02:39:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmluRnNVZjR4UlRKZ0gtbEh3NTc3Y1I1TVkxT2ZxUjBYX2ZiMThxbXhRVjFOWGt2VWdwZGw0YzFKM2VCU1BJS2NxMk1Ca0VscldVVDhIVHp6d2hiX29rdnRkUkVfSzFHd0JYTTFKbWItSzVfNHZBRjZubnFXeVFnU3ozWFJXUlZzUFpaOGk1MGJXMm4zNnI1N2xOQ21tbWx1YlNVQmxKazZNNEJSbDJ0b1JoSVFzVTZiWWZsb19SQy1lZEk5M3pNajZDM2VwSnlpOHVuTi1QTC04ZVk?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
@@ -20625,10 +20596,44 @@
       ]
     },
     {
-      "title": "US stocks open higher ahead of big earnings week and another Fed rate call",
+      "title": "In China, the AI bubble has already burst",
+      "source": "Reuters",
+      "publishedAt": "2026-10-26T12:02:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnhLb1ZGYUdnbENkWmMyZDZqTHlsckJwbEsxWVZGTnI5U2lPcFNXLXFoYmRRZm1rU2NWREZrWGVRblRES2FmdkwtUVIzMDlTS2N4ZW5vNno1Y2JCR1FzclhmdUVBOU5jMElCd2FwTlN1VzdfOU94YXlFc2VSWmRObXZyMVhyNnlf?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Wall Street rises as AI stocks keep swinging",
       "source": "LancasterOnline",
-      "publishedAt": "2026-10-26T13:38:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZlo5ak1FTlhtTldwTUtLWXRubE5TSlZlS0JuMkJLQ2JtcVJIRUl3YTFTWmRuMGZYTy1TRkJzcXU3YldPdWFNSFYzbzN5eS0yTDI3NThxb0ZXRm1Nb0x0S1dBQnBqckZ1TF91V1lMd2hvMDNMY21nb05ubThZcTNwMDBLWnZJOERRbFMxYUh2bDhETDJCc3pIa3lOY2VVbWw0Q3g5UFl1azRQaThYOEhHdF9MNktMRlRkVTBDZlhoa255UXRHQmpoYnNydHdJY0NmS0R6Z1IzNU5HNzZRRV90OEpEeEJrZWZVVzRhVndvUDF4UnZHU1M1cU5jcWl3dVBJVFFqNw?oc=5",
+      "publishedAt": "2026-10-26T16:25:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNR3JXbjlfMlI2VHpTTHRxWHpDN2VCTlFaQUViTE50UER5WFE3Vld0SU5DMy1FOXllX2FvVWNjZzN0S2Zpc2NqWDRyNWdsMWs1ZTJxZXdQejdLUXMxMmRtaGY2b3V4UUMyNllfTjRYU0NPTHQyQ1lKQWlqY2xabmZNV1dRc3Ytc0pTbU1PbHRmNHhHSm45d2l3TzVCaDlGU1NreXAzajl3OHpHS3REYlB6cGo0anpZNmlaVThlTWdaN09QT09Ib05DYnJSWV9takxOSmdNQkRhcGp5NmotQmFjNEdWSlprUVVUY1g4RUxkT3ZadUo1WDFFYw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Here's Exactly What Investors Should Look for From the Federal Reserve's October Meeting",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-26T23:08:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOUYwWGRycnV2V2RWZVFOeDNrdFJWR0Jzbk1sQkYwbFFFakRSQmZjWEdWOU5yV2VyZGhoQXRBNW5BS1RuQXlMYW9uZ1NjX1o3Q0hKalZRSGMxR1I2ZUcyZ2FyQkg2S25idGw2RkI5M29JN1NFYS1tWjlqSDBnTHE3LTQtSzVZc2xSaVFRZDFYOUFSUjh5bS1N?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20643,10 +20648,10 @@
       ]
     },
     {
-      "title": "Stock Market Midday, Oct. 26: Tech Sector Rallies on Anthropic IPO Filing and Cooling Oil Prices",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-26T16:16:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTTZhRm14dDJGdGNpS1VvNlZDbkVjOTVUQWJHQU84TWxlYjFIOHp0UER3N0ZVMjdoMU9JNVlFb2NWV2ZHbVdHRUNiYUV4dktFQjY4RzNLTFE2MHFsSGdGM19Ib1pYdU8xQXdkeTZ1ZDZULXlZa0pPWUxuOE53V1FldTlXYVhVeXN4N0tOSVYya3k4cVAweGlJb19XdEFDUTU1VG9hdGU3UEFJREgtb1hxZXdSN3gteTRhSnBlS2ZUMnRyNkRFdlpqckxXMnE2b0xjNUdyU0Z5QU1WaXotbDU1N0gyalJQN1lKMkE?oc=5",
+      "title": "Stocks Gain Before Tech Earnings as Oil Declines: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-26T20:10:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGVmU0kxdjhvRF9ZU0VaeFFkODlaUTRlN1dQaHNSV1JiOTBwSV9nb1RKejQ2clRzQ0doN3VjVEtHb0RaTlVBNUdhMFI3aUtTRHB1dEE3NWdXZS1ZbktuMVUtYnE0ellyLWlNa29aWThtQkdSQW5FRzFIVUZlb3hEUlg1czdXd3FyV0VwNW0wVEMyTUg4ZEpoTVg0SzIyZ0VmLTAxOUlPTUtLXy1kS0ozbw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20658,23 +20663,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks climb ahead of tech earnings, central bank calls",
-      "source": "AFP.com",
-      "publishedAt": "2026-10-26T14:08:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80U3BZYzZHU1hBZHhrbmNVb3FSNUpsUWxGNHFzaVJoZnlTMkRpN09OdHowdFV5RUxNVXB0Ti05UFRfczM1Yy0zNmE0eGx3eU9DVDhyNkVhWVR6aENfbWotLURqMmpQb0VDNG1ROUZYYnV4Ym9iMmZhUE94aWJ2NFk?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
