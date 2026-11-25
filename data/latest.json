@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T03:20:20.004894+00:00",
+  "fetchedAt": "2026-11-25T13:50:55.334994+00:00",
   "meta": {
     "schemaVersion": "4.0",
     "source": "FRED + Google News RSS",
@@ -73,7 +73,7 @@
       "name": "Europa",
       "score": 56.0,
       "label": "Beobachten",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -86,7 +86,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.5,
-        "date": "2026-11-24",
+        "date": "2026-11-25",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -20554,10 +20554,10 @@
   },
   "news": [
     {
-      "title": "Bill Ackman says the U.S. economy could be headed for another recession—and is blaming Kevin Warsh’s Fed",
-      "source": "Fortune",
-      "publishedAt": "2026-11-24T14:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN3VCOE5ObEdOWFpHOUdKMmRIa2RKNjdkVEFia3VpTzFLSlZyZkhoaVVhSDNZQVdwMElQNG9ya0ZFZXhFcTFnS0ZkdDZ6T1hWYWRVQTV1V0diTzVjSldtQmFmdmZFQzllQjBHNVJCcFhnSXNRZTlqZXVLS0JvQUZaWEtndFY5QU5aV0VRN1VMdw?oc=5",
+      "title": "Defensive stocks lift FTSE 100 as US inflation data, tariffs loom",
+      "source": "Reuters",
+      "publishedAt": "2026-11-25T11:29:44+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW1VcFBpakVFWW8xQ3dPdGNtZFRQRGJuX2tmOTVZOHBsa2hvQ3hkNHMwVmJvNmo1eHlxd0xkV2xDSFpuSGZqX2hUMWxQUV9xdVl5WTNfOXFRYnRYRGlKcF9xajludy1FQjY3R1dFT2pjYkEyXzRnYkd5amRiSDA4QkZyeFR3N0NKUGZsbDV2SW0xS085Qzl4bHdFSW1HNEVrX0hvbE5HUmo1QQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20572,10 +20572,78 @@
       ]
     },
     {
-      "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-25T01:42:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDZ0bDdjN0JUTWU4T0c1eU5YZGdUckxKMTh3ZHVnd2VkVjQwTWRHWGcxMFA1cTlwMlJrYW9rNXhjV2NheHVzeXZrdHl6alZaNk5ZNzZUdTFNZXNUaXFYQzRWVk02dmtMdVFWTU9ZclBwc1ZOOHhiTmZ4Ym0xRHBmZzU3bFJDdEg0R3BITXkyOXQ?oc=5",
+      "title": "Nvidia is crucial to the economy. An AI wipeout could unleash unexpected consequences",
+      "source": "CNN",
+      "publishedAt": "2026-11-25T10:00:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52c3JDajhQZ1R2d0RKejhxZDhrZ0QyXzBvWDVNSHFaMzFiV2dGZGZKbjdvZHNUZ3N2U3RGOVV3NHg2bm1CZUpkaEgwUkI4cHlhNmMwa3VDV0liSVluaVZZMnNpbnFRQTNaenc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "3 More Stocks to Buy After Earnings",
+      "source": "Morningstar",
+      "publishedAt": "2026-11-25T11:09:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY21QaDlQTTVfZjZLNDFwSWpuTFFPVFJsZE52b3kxeGhQNk9kdUF6OEQ3UGU5S192azM5WVZaSjhEeHZIMmJxT04xVGdUU3ZESEhPdmJkUmJlWWltWGNoUzc0azdOa2UtZkFZcmJQbFN1eE5KbHNONG1ubDJXRXkzY0Rn?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Asia’s markets dive as return of Nvidia’s Huang fails to quell AI doubts",
+      "source": "Al Jazeera",
+      "publishedAt": "2026-11-25T08:04:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQTBONWVtRGk1YWduRmRYM3RaZ0ZIVFNqTWRQRG5fTGZ2SWF4elVlSFJkdWpoUHNUcFdjQ2o3ZDFLeUFPVkJYaVRjWnRDWDdfLWdackM4LU1WM1M3Yy05X3pvMVR0dnU0UzJ0R296YWNWaVdJUU5KZ21DU2pOeUpUTVhGOUNadjVPbTZCS1lpaUNjWTJvZklNY2U1dnRWb0HSAaQBQVVfeXFMTlJpRmJuUU82c0pTdnFPOENwTF9GZ1g1d3hDaExGTUhDbWJMT1VvNmp3ZEtGVmlxbTl4T2d3SFI1VnFndlZVYnVzYXRnMUdRSUxTemo4NERuNVo5OUpqVWhyOEMwQXlMM0NOSjBZTEFQX0x0bFZ6RDl0czhqbWMyMjg2ZmtHMHZWY0h3NW1BeHlpTHRFNHNScklvYms5OXVJcWU3dnc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Hong Kong market stuck on the wrong side of China’s K-shaped economy, UBS warns",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-11-25T10:02:02+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQS1EUEdyOTgzNU80YUtWbGVtZDAtNGNiSVhBYzBFZDdwWW1idlN6UEZlWGhaYkdHZDBGNjNkNU1aX3ptOFN4eVQzZHJ5NzF0RHRKeWdiaXpUUW9xZkd1a1ZQTFNsVnZfNU5lZE9tTVdhY3VvM0VHcV96eTltQjNmQ2V4aDBvbnF5SmxMSnl0eFB2YXRtUW5LT0g1ZlcxZHU2VnR2eHhtMnpiTFhQNVIxUHpPek1HTUVTazNzcnctWQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "European Shares Rise on Consumer Boost; Markets Await US Tariffs, Inflation",
+      "source": "US News Money",
+      "publishedAt": "2026-11-25T09:20:24+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSGYxUzFxdndScTVLdkMtdDZ4YUNwLUJNYWlLVTQ1dUgwSmhBMGJ0cGt6U3hzbGRKSTd2VVhhWml0Q3EzLWZUbnY5dkQ3MzlOTGdFSU8tVU96aFU5SlVlRDVyelMtZTdFcHpHWWlrdmszaV92Y041Q0g4X0NGSmstMDZoNUg0ZWlfYm14VVQ4X0d1MENtaGVEaXpUMEl6VzlTME1BRkIzcFdJYkV0NXItblQydDB6Qm5TTzR2Rkp3dEFXNmM1czNGbkJLWjdEQQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20587,75 +20655,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Futures Fall; Trump Muses About Taking Nvidia Stake",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-11-25T02:02:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ1pxUXlOYnQzSVRGaGRVLWxzNXdsV0ZQS18tLTk4NEk5VTBlUmVUb0VTT2tLaGFYa01wOVFBUHhBRkx5XzdPV1hDYkxtcE1mU1VCOXNYNWZ3S0pLZEJkbnBOUExWaXJwWFpwWTBncGxpb2JtQkh1RnJjVGdSalBtU2NGT1VrQjNxV3RQb3FTVmYxenJvYUpsLVF5WVNoZGRPdk1jSWtQdHk5ZVFpQTZyakdnQXNrQl8xYWs0N2g2eEQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Asian Stocks to Slide as AI Trade Doubts Resurface: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-25T02:51:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjE4Zm9DOUxVdmFFaTlaQVJMWHFaVEVGVy1JcTNEcEc3bnhET2xfaGNCdFlpbXkwS210Tkx0d3JVUWVzbzA4amhwWU1FWGxLd2E0YUJBY1lOOUNlVmlwNF83b3Bqc2dqaWVMTzUwSGFfYWNJVDZwXzh5TGp5YUZaTzZoa0dZenZfalhyelF0UUZwbllhOEZIbWNGc1V3OHQxWlhfV3ZoeGdKRURCS3dTVEFSRnk?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
-      ]
-    },
-    {
-      "title": "Drops for Nvidia, Anthropic and other AI stocks drag the US market back down",
-      "source": "AP News",
-      "publishedAt": "2026-11-24T21:16:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbEdHU1ZWMjgzb1lYODBaTEJpdWNXUXVpUmlDTmVxSTBjUVlOYlBBWmZXSzVrMWR3SE9NYTg5cVNuemZFZHlJdU1PdGdybnh1NUFQVTVINkJUUk1Sb0hmNnI5YS1LQTl5SUJibWpWekVQU1BqR3NuQWhVeHZlUVJ3bDEtRmZZNmVHWVFFRTA2RUhFcTQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "When I See A Stock Market Correction Without A Recession, I See A Buying Opportunity (SPY)",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-11-24T14:03:55+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNclNWWm9YVHFtOVdFUy1SeVlMUXU0Z3NrdkVXNGxmZUpXQ3VSUGNDU3hJTWlGdzl6UUNvb25IYTJ3eFNlLXZhWWRZWmF3b3JZNkEzNjIwMVFFdTlYdG1zbmI5TmVtMTJnV3B2WFpONkxMVjRKV0JRUVZWWldXMU5iQkVnX1ZjNHlmTVdUUHh5R3pjWTdJd1MtMVRTR3VZY0tONXJwWHg2cHFQNlRQSmM3c3k2R0NXT0pmMFE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
